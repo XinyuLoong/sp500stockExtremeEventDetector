@@ -6,11 +6,14 @@ import requests
 
 WIKIPEDIA_URL = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
 
-def get_sp500_constituents(output_file: str = "stocklist.csv") -> None:
+def get_sp500_constituents(output_file: str = "stocklist.csv"):
 
     """
     Get the current S&P 500 constituent list from Wikipedia and save it as .csv
     The .csv file will be the input for main.py
+    @ Params[in]:
+        output_file: Output .csv file name. Default: stocklist.csv
+    @ return: void
     """
 
     # Get data from Wikipedia table, store original data in var: raw_df
@@ -65,6 +68,15 @@ def get_sp500_constituents(output_file: str = "stocklist.csv") -> None:
 
 # For command line execution
 def parse_args():
+    
+    '''
+    Parse command line arguments for get_stock.py
+    users can change the variables when executing get_stock.py:
+    @ Params[in]:
+        --output-file: Output .csv file name. Default: stocklist.csv
+    @ return: parsed arguments
+    '''
+
     parser = argparse.ArgumentParser(
         description = "Harvest the current S&P 500 constituent list from Wikipedia."
     )
