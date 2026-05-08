@@ -16,7 +16,7 @@ def parse_args():
     Parse command line arguments for main.py
     users can change the variables when executing main.py:
     @ params[in]:
-    --days: number of recent natural days used to calculate high and low prices. Default: 10
+    --days: number of recent calendar days used to calculate high and low prices. Default: 10
     --threshold: price movement threshold. Eg: 0.10 means 10%. Default
     --stock-file: input .csv file containing the stock list. Default: stocklist.csv
     --event-file: output .csv file storing current stock extremes. Default: stock_extremes.csv
@@ -24,13 +24,34 @@ def parse_args():
     '''
 
     parser = argparse.ArgumentParser(description = "Monitor S&P 500 stock price movements.")
-    parser.add_argument("--days", type = int, default = 10, help = "Number of recent trading days used to calculate high and low prices.")
+    parser.add_argument("--days", type = int, default = 10, help = "Number of recent calendar days used to calculate high and low prices.")
     parser.add_argument("--threshold", type = float, default=0.10, help = "Price movement threshold. Eg: 0.10 means 10%.")
     parser.add_argument("--stock-file", default = "stocklist.csv", help = "Input .csv file containing the stock list.")
     parser.add_argument("--state-file", default = "stock_extremes.csv", help = "Output .csv file storing current stock extremes.")
     # Add this option for testing (When we want to test the program outside trading hours)
     parser.add_argument("--force-run", action = "store_true", help = "Force the program to run even outside trading hours. Useful for testing.")
     return parser.parse_args()
+
+
+def symbol_to_name_map(stock_df: pd.DataFrame):
+    """
+    Build a dictionary that maps stock symbols to company names.
+    Used for merging the stock price events with company names for better notification messages.
+
+    @ params[in]:
+        stock_df: A DataFrame loaded from stocklist.csv.
+    @ return:
+        dict: {symbol: company_name}
+    """
+
+    if "company_name" not in stock_df.columns:
+        return {}
+    symbol_to_name = (stock_df[["symbol", "company_name"]]
+                      .dropna(subset=["symbol"])
+                      .set_index("symbol")["company_name"]
+                      .to_dict()
+    )
+    return symbol_to_name
 
 
 def is_market_open_now():
@@ -67,7 +88,7 @@ def poll_prices(symbols: list[str], days: int):
     Use yfinance.download(tickers, period="Xd", interval="5m") to get historical price data for the range of days, and we can also spesifiy the interval of the data (eg: 5m means we get 5-minute price data).
     @ params[in]:
         symbols: A list of stock symbols to poll.
-        days: Number of recent trading days used to calculate max and min prices.
+        days: Number of recent calendar days used to calculate max and min prices.
     @ return: A DataFrame with columns: symbol, current_price, window_max, window_min
     '''
 
@@ -80,10 +101,21 @@ def poll_prices(symbols: list[str], days: int):
     # Get historical intraday price data
     period = f"{days}d"
     try:
-        data = yf.download(tickers = yahoo_symbols, period = period, interval = "5m", group_by = "ticker")
+        data = yf.download(tickers = yahoo_symbols,
+                           period = period, # number of recent calendar days used to calculate max and min prices
+                           interval = "5m", # the interval of the data, we can get 5-minute price data
+                           group_by = "ticker", # group the data by ticker, so that we can easily get the price data for each stock
+                           auto_adjust = False, # only get the raw price data without any adjustment
+                           prepost = False, # only get the regular trading hours data, no pre-market or after-hours data
+                           progress = True, # progress bar when downloading data
+                           threads = True, # use multi-threading to speed up the downloading
+                           )
     except Exception as e:
         print(f"Error downloading data from Yahoo Finance: {e}")
         raise RuntimeError("Failed to download price data from Yahoo Finance.")
+
+    # debug test
+    pd.DataFrame(data).to_csv("price_data_for_debugging.csv", index=True)
 
     for original_symbol, yahoo_symbol in symbol_map.items():
         try:
@@ -113,16 +145,21 @@ def poll_prices(symbols: list[str], days: int):
                          "window_min": window_min})
         except Exception as e:
             print(f"Warning: Failed to process {original_symbol}: {e}")
+    
+    output_table = pd.DataFrame(rows)
 
-    return pd.DataFrame(rows)
+    # Save the price data to a .csv file for debugging
+    # output_table.to_csv("price_data_for_debugging.csv", index=False)
+
+    return output_table
 
 
-def detect_events(price_df: pd.DataFrame, threshold: float):
+def detect_events(price_df: pd.DataFrame, threshold: float, symbol_to_name: dict):
 
     """
     Detect stock price reluctance events.
     DROP: Current price is more than threshold below the recent minimum.
-          drop_pct = (window_min - current_price) / window_min
+          drop_pct = (current_price - window_min) / window_min
     RISE: Current price is more than threshold above the recent maximum.
           rise_pct = (current_price - window_max) / window_max
     @ params[in]:
@@ -144,15 +181,16 @@ def detect_events(price_df: pd.DataFrame, threshold: float):
         window_max = row["window_max"]
         window_min = row["window_min"]
 
-        drop_pct = (window_min - current_price) / window_min
+        drop_pct = (current_price - window_min) / window_min
         rise_pct = (current_price - window_max) / window_max
 
         # Only consider it an event if the price movement exceeds the threshold
         # 1. DROP event: current price dropped more than threshold from recent max
         # 2. RISE event: current price rose more than threshold from recent min
-        if drop_pct > threshold:
+        if abs(drop_pct) > threshold:
             events.append({
                 "symbol": symbol,
+                "company_name": symbol_to_name.get(symbol, ""),
                 "event_type": "DROP",
                 "current_price": current_price,
                 "reference_price": window_min,
@@ -160,9 +198,10 @@ def detect_events(price_df: pd.DataFrame, threshold: float):
                 "message": (f"{symbol} dropped {drop_pct:.2%} from its {window_min:.2f} days recent minimum price.")
             })
 
-        if rise_pct > threshold:
+        if abs(rise_pct) > threshold:
             events.append({
                 "symbol": symbol,
+                "company_name": symbol_to_name.get(symbol, ""),
                 "event_type": "RISE",
                 "current_price": current_price,
                 "reference_price": window_max,
@@ -173,9 +212,9 @@ def detect_events(price_df: pd.DataFrame, threshold: float):
     return events
 
 
-def build_state_table(price_df: pd.DataFrame, events: list[dict], stock_df: pd.DataFrame):
+def build_state_table(price_df: pd.DataFrame, events: list[dict], symbol_to_name: dict):
     """
-    Build the event table for all detected events (the table is created by detect_events() function)
+    Build the state table for all monitored stocks and extreme events.
     @ params[in]:
         price_df: A DataFrame containing columns: symbol, current_price, window_max, window_min (created by poll_prices() function)
         events: A list of event dictionaries. Each dictionary contains:
@@ -203,12 +242,6 @@ def build_state_table(price_df: pd.DataFrame, events: list[dict], stock_df: pd.D
     for event in events:
         symbol = event["symbol"]
         event_map[symbol] = event["event_type"]
-    
-    # Build a map from symbol to company name
-    if "company_name" in stock_df.columns:
-        symbol_to_name = (stock_df[["symbol", "company_name"]].set_index("symbol")["company_name"].to_dict())
-    else:
-        symbol_to_name = {}
 
     # Build the state DataFrame by merging price_df with the latest event info
     state_rows = []
@@ -218,7 +251,7 @@ def build_state_table(price_df: pd.DataFrame, events: list[dict], stock_df: pd.D
         current_price = row["current_price"]
         window_max = row["window_max"]
         window_min = row["window_min"]
-        drop_pct = (window_min - current_price) / window_min
+        drop_pct = (current_price - window_min) / window_min
         rise_pct = (current_price - window_max) / window_max
 
         latest_event = np.nan
@@ -254,13 +287,14 @@ def main():
 
     # Load stock list
     stock_df = pd.read_csv(args.stock_file)
+    symbol_to_name = symbol_to_name_map(stock_df) # Build a symbol to company name mapping for notification messages and state table
     if "symbol" not in stock_df.columns:
         raise RuntimeError("Stock list file must contain a 'symbol' column.") # Exception handling
     symbols = stock_df["symbol"].dropna().unique().tolist()
     
     # Poll prices and detect events
     price_df = poll_prices(symbols, args.days)
-    events = detect_events(price_df, args.threshold)
+    events = detect_events(price_df, args.threshold, symbol_to_name)
 
     # Send notifications for detected events
     if events:

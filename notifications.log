@@ -1,0 +1,378 @@
+2026-05-08T19:57:01 | AAPL | Apple Inc. | DROP | current_price=293.28 | reference_price=245.51 | change_pct=19.46% | AAPL dropped 19.46% from its 245.51 days recent minimum price.
+2026-05-08T19:57:01 | ABNB | Airbnb | DROP | current_price=141.47 | reference_price=121.51 | change_pct=16.43% | ABNB dropped 16.43% from its 121.51 days recent minimum price.
+2026-05-08T19:57:01 | ABT | Abbott Laboratories | RISE | current_price=84.30 | reference_price=105.46 | change_pct=-20.06% | ABT rose -20.06% from its 105.46 days recent maximum price.
+2026-05-08T19:57:01 | ACN | Accenture | RISE | current_price=180.50 | reference_price=202.16 | change_pct=-10.71% | ACN rose -10.71% from its 202.16 days recent maximum price.
+2026-05-08T19:57:01 | ADBE | Adobe Inc. | DROP | current_price=253.10 | reference_price=224.15 | change_pct=12.92% | ADBE dropped 12.92% from its 224.15 days recent minimum price.
+2026-05-08T19:57:01 | ADI | Analog Devices | DROP | current_price=416.51 | reference_price=300.56 | change_pct=38.58% | ADI dropped 38.58% from its 300.56 days recent minimum price.
+2026-05-08T19:57:01 | ADM | Archer Daniels Midland | DROP | current_price=77.65 | reference_price=66.06 | change_pct=17.54% | ADM dropped 17.54% from its 66.06 days recent minimum price.
+2026-05-08T19:57:01 | ADP | Automatic Data Processing | DROP | current_price=213.08 | reference_price=188.16 | change_pct=13.24% | ADP dropped 13.24% from its 188.16 days recent minimum price.
+2026-05-08T19:57:01 | ADSK | Autodesk | DROP | current_price=244.45 | reference_price=214.10 | change_pct=14.18% | ADSK dropped 14.18% from its 214.10 days recent minimum price.
+2026-05-08T19:57:01 | AIZ | Assurant | DROP | current_price=239.70 | reference_price=212.12 | change_pct=13.00% | AIZ dropped 13.00% from its 212.12 days recent minimum price.
+2026-05-08T19:57:01 | AJG | Arthur J. Gallagher & Co. | RISE | current_price=198.87 | reference_price=226.00 | change_pct=-12.00% | AJG rose -12.00% from its 226.00 days recent maximum price.
+2026-05-08T19:57:01 | AKAM | Akamai Technologies | DROP | current_price=147.68 | reference_price=88.50 | change_pct=66.87% | AKAM dropped 66.87% from its 88.50 days recent minimum price.
+2026-05-08T19:57:01 | ALB | Albemarle Corporation | DROP | current_price=203.53 | reference_price=170.29 | change_pct=19.52% | ALB dropped 19.52% from its 170.29 days recent minimum price.
+2026-05-08T19:57:01 | ALGN | Align Technology | RISE | current_price=168.80 | reference_price=200.25 | change_pct=-15.71% | ALGN rose -15.71% from its 200.25 days recent maximum price.
+2026-05-08T19:57:01 | ALLE | Allegion | RISE | current_price=134.28 | reference_price=149.26 | change_pct=-10.04% | ALLE rose -10.04% from its 149.26 days recent maximum price.
+2026-05-08T19:57:01 | AMAT | Applied Materials | DROP | current_price=435.46 | reference_price=320.69 | change_pct=35.79% | AMAT dropped 35.79% from its 320.69 days recent minimum price.
+2026-05-08T19:57:01 | AMD | Advanced Micro Devices | DROP | current_price=455.00 | reference_price=192.87 | change_pct=135.92% | AMD dropped 135.92% from its 192.87 days recent minimum price.
+2026-05-08T19:57:01 | AME | Ametek | DROP | current_price=232.42 | reference_price=207.32 | change_pct=12.11% | AME dropped 12.11% from its 207.32 days recent minimum price.
+2026-05-08T19:57:01 | AMP | Ameriprise Financial | DROP | current_price=465.56 | reference_price=422.37 | change_pct=10.23% | AMP dropped 10.23% from its 422.37 days recent minimum price.
+2026-05-08T19:57:01 | AMZN | Amazon | DROP | current_price=272.68 | reference_price=199.14 | change_pct=36.93% | AMZN dropped 36.93% from its 199.14 days recent minimum price.
+2026-05-08T19:57:01 | ANET | Arista Networks | DROP | current_price=141.78 | reference_price=115.42 | change_pct=22.84% | ANET dropped 22.84% from its 115.42 days recent minimum price.
+2026-05-08T19:57:01 | ANET | Arista Networks | RISE | current_price=141.78 | reference_price=179.80 | change_pct=-21.15% | ANET rose -21.15% from its 179.80 days recent maximum price.
+2026-05-08T19:57:01 | AOS | A. O. Smith | RISE | current_price=58.61 | reference_price=67.89 | change_pct=-13.67% | AOS rose -13.67% from its 67.89 days recent maximum price.
+2026-05-08T19:57:01 | APA | APA Corporation | RISE | current_price=35.53 | reference_price=45.66 | change_pct=-22.17% | APA rose -22.17% from its 45.66 days recent maximum price.
+2026-05-08T19:57:01 | APH | Amphenol | RISE | current_price=127.97 | reference_price=155.46 | change_pct=-17.68% | APH rose -17.68% from its 155.46 days recent maximum price.
+2026-05-08T19:57:01 | APO | Apollo Global Management | DROP | current_price=133.18 | reference_price=102.70 | change_pct=29.68% | APO dropped 29.68% from its 102.70 days recent minimum price.
+2026-05-08T19:57:01 | APP | AppLovin | DROP | current_price=468.50 | reference_price=364.64 | change_pct=28.48% | APP dropped 28.48% from its 364.64 days recent minimum price.
+2026-05-08T19:57:01 | APTV | Aptiv | DROP | current_price=57.95 | reference_price=52.38 | change_pct=10.63% | APTV dropped 10.63% from its 52.38 days recent minimum price.
+2026-05-08T19:57:01 | APTV | Aptiv | RISE | current_price=57.95 | reference_price=70.29 | change_pct=-17.56% | APTV rose -17.56% from its 70.29 days recent maximum price.
+2026-05-08T19:57:01 | ARE | Alexandria Real Estate Equities | DROP | current_price=46.25 | reference_price=39.41 | change_pct=17.36% | ARE dropped 17.36% from its 39.41 days recent minimum price.
+2026-05-08T19:57:01 | ARES | Ares Management | DROP | current_price=126.24 | reference_price=98.44 | change_pct=28.24% | ARES dropped 28.24% from its 98.44 days recent minimum price.
+2026-05-08T19:57:01 | AVB | AvalonBay Communities | DROP | current_price=184.17 | reference_price=160.10 | change_pct=15.04% | AVB dropped 15.04% from its 160.10 days recent minimum price.
+2026-05-08T19:57:01 | AVGO | Broadcom | DROP | current_price=429.90 | reference_price=289.96 | change_pct=48.26% | AVGO dropped 48.26% from its 289.96 days recent minimum price.
+2026-05-08T19:57:01 | AWK | American Water Works | RISE | current_price=125.03 | reference_price=139.62 | change_pct=-10.45% | AWK rose -10.45% from its 139.62 days recent maximum price.
+2026-05-08T19:57:01 | AXON | Axon Enterprise | DROP | current_price=403.18 | reference_price=339.23 | change_pct=18.85% | AXON dropped 18.85% from its 339.23 days recent minimum price.
+2026-05-08T19:57:01 | AXON | Axon Enterprise | RISE | current_price=403.18 | reference_price=449.10 | change_pct=-10.22% | AXON rose -10.22% from its 449.10 days recent maximum price.
+2026-05-08T19:57:01 | BA | Boeing | DROP | current_price=237.39 | reference_price=187.72 | change_pct=26.46% | BA dropped 26.46% from its 187.72 days recent minimum price.
+2026-05-08T19:57:01 | BALL | Ball Corporation | RISE | current_price=58.53 | reference_price=65.36 | change_pct=-10.45% | BALL rose -10.45% from its 65.36 days recent maximum price.
+2026-05-08T19:57:01 | BAX | Baxter International | DROP | current_price=18.00 | reference_price=15.73 | change_pct=14.43% | BAX dropped 14.43% from its 15.73 days recent minimum price.
+2026-05-08T19:57:01 | BBY | Best Buy | RISE | current_price=59.39 | reference_price=68.21 | change_pct=-12.92% | BBY rose -12.92% from its 68.21 days recent maximum price.
+2026-05-08T19:57:01 | BEN | Franklin Resources | DROP | current_price=31.04 | reference_price=22.58 | change_pct=37.50% | BEN dropped 37.50% from its 22.58 days recent minimum price.
+2026-05-08T19:57:01 | BF.B | Brown–Forman | DROP | current_price=27.68 | reference_price=24.59 | change_pct=12.54% | BF.B dropped 12.54% from its 24.59 days recent minimum price.
+2026-05-08T19:57:01 | BF.B | Brown–Forman | RISE | current_price=27.68 | reference_price=31.24 | change_pct=-11.40% | BF.B rose -11.40% from its 31.24 days recent maximum price.
+2026-05-08T19:57:01 | BIIB | Biogen | DROP | current_price=193.52 | reference_price=168.64 | change_pct=14.76% | BIIB dropped 14.76% from its 168.64 days recent minimum price.
+2026-05-08T19:57:01 | BK | BNY Mellon | DROP | current_price=130.48 | reference_price=114.30 | change_pct=14.16% | BK dropped 14.16% from its 114.30 days recent minimum price.
+2026-05-08T19:57:01 | BKNG | Booking Holdings | RISE | current_price=166.02 | reference_price=193.92 | change_pct=-14.39% | BKNG rose -14.39% from its 193.92 days recent maximum price.
+2026-05-08T19:57:01 | BLDR | Builders FirstSource | RISE | current_price=77.40 | reference_price=94.97 | change_pct=-18.50% | BLDR rose -18.50% from its 94.97 days recent maximum price.
+2026-05-08T19:57:01 | BLK | BlackRock | DROP | current_price=1084.87 | reference_price=929.25 | change_pct=16.75% | BLK dropped 16.75% from its 929.25 days recent minimum price.
+2026-05-08T19:57:01 | BRO | Brown & Brown | RISE | current_price=56.43 | reference_price=69.25 | change_pct=-18.51% | BRO rose -18.51% from its 69.25 days recent maximum price.
+2026-05-08T19:57:01 | BSX | Boston Scientific | RISE | current_price=53.94 | reference_price=70.13 | change_pct=-23.09% | BSX rose -23.09% from its 70.13 days recent maximum price.
+2026-05-08T19:57:01 | BX | Blackstone Inc. | DROP | current_price=123.76 | reference_price=106.81 | change_pct=15.87% | BX dropped 15.87% from its 106.81 days recent minimum price.
+2026-05-08T19:57:01 | BXP | BXP, Inc. | DROP | current_price=59.44 | reference_price=50.07 | change_pct=18.71% | BXP dropped 18.71% from its 50.07 days recent minimum price.
+2026-05-08T19:57:01 | C | Citigroup | DROP | current_price=125.56 | reference_price=106.52 | change_pct=17.87% | C dropped 17.87% from its 106.52 days recent minimum price.
+2026-05-08T19:57:01 | CAG | Conagra Brands | RISE | current_price=14.12 | reference_price=16.07 | change_pct=-12.10% | CAG rose -12.10% from its 16.07 days recent maximum price.
+2026-05-08T19:57:01 | CAH | Cardinal Health | RISE | current_price=183.67 | reference_price=217.77 | change_pct=-15.66% | CAH rose -15.66% from its 217.77 days recent maximum price.
+2026-05-08T19:57:01 | CARR | Carrier Global | DROP | current_price=66.82 | reference_price=53.77 | change_pct=24.27% | CARR dropped 24.27% from its 53.77 days recent minimum price.
+2026-05-08T19:57:01 | CASY | Casey's | DROP | current_price=859.34 | reference_price=700.00 | change_pct=22.76% | CASY dropped 22.76% from its 700.00 days recent minimum price.
+2026-05-08T19:57:01 | CAT | Caterpillar Inc. | DROP | current_price=897.40 | reference_price=664.57 | change_pct=35.03% | CAT dropped 35.03% from its 664.57 days recent minimum price.
+2026-05-08T19:57:01 | CBOE | Cboe Global Markets | DROP | current_price=347.99 | reference_price=272.15 | change_pct=27.87% | CBOE dropped 27.87% from its 272.15 days recent minimum price.
+2026-05-08T19:57:01 | CBRE | CBRE Group | DROP | current_price=146.32 | reference_price=131.19 | change_pct=11.53% | CBRE dropped 11.53% from its 131.19 days recent minimum price.
+2026-05-08T19:57:01 | CCI | Crown Castle | DROP | current_price=90.58 | reference_price=77.80 | change_pct=16.43% | CCI dropped 16.43% from its 77.80 days recent minimum price.
+2026-05-08T19:57:01 | CCL | Carnival | DROP | current_price=26.39 | reference_price=23.66 | change_pct=11.54% | CCL dropped 11.54% from its 23.66 days recent minimum price.
+2026-05-08T19:57:01 | CCL | Carnival | RISE | current_price=26.39 | reference_price=30.16 | change_pct=-12.50% | CCL rose -12.50% from its 30.16 days recent maximum price.
+2026-05-08T19:57:01 | CDNS | Cadence Design Systems | DROP | current_price=362.62 | reference_price=263.44 | change_pct=37.65% | CDNS dropped 37.65% from its 263.44 days recent minimum price.
+2026-05-08T19:57:01 | CDW | CDW Corporation | RISE | current_price=104.81 | reference_price=143.64 | change_pct=-27.03% | CDW rose -27.03% from its 143.64 days recent maximum price.
+2026-05-08T19:57:01 | CEG | Constellation Energy | DROP | current_price=303.68 | reference_price=264.74 | change_pct=14.71% | CEG dropped 14.71% from its 264.74 days recent minimum price.
+2026-05-08T19:57:01 | CF | CF Industries | RISE | current_price=115.00 | reference_price=141.96 | change_pct=-18.99% | CF rose -18.99% from its 141.96 days recent maximum price.
+2026-05-08T19:57:01 | CFG | Citizens Financial Group | DROP | current_price=63.73 | reference_price=57.12 | change_pct=11.58% | CFG dropped 11.58% from its 57.12 days recent minimum price.
+2026-05-08T19:57:01 | CHTR | Charter Communications | RISE | current_price=154.86 | reference_price=254.11 | change_pct=-39.06% | CHTR rose -39.06% from its 254.11 days recent maximum price.
+2026-05-08T19:57:01 | CI | Cigna | DROP | current_price=288.06 | reference_price=257.85 | change_pct=11.72% | CI dropped 11.72% from its 257.85 days recent minimum price.
+2026-05-08T19:57:01 | CIEN | Ciena | DROP | current_price=547.52 | reference_price=361.70 | change_pct=51.37% | CIEN dropped 51.37% from its 361.70 days recent minimum price.
+2026-05-08T19:57:01 | CLX | Clorox | RISE | current_price=92.17 | reference_price=108.89 | change_pct=-15.36% | CLX rose -15.36% from its 108.89 days recent maximum price.
+2026-05-08T19:57:01 | CMCSA | Comcast | RISE | current_price=25.40 | reference_price=32.08 | change_pct=-20.84% | CMCSA rose -20.84% from its 32.08 days recent maximum price.
+2026-05-08T19:57:01 | CME | CME Group | RISE | current_price=281.24 | reference_price=312.68 | change_pct=-10.06% | CME rose -10.06% from its 312.68 days recent maximum price.
+2026-05-08T19:57:01 | CMG | Chipotle Mexican Grill | RISE | current_price=32.48 | reference_price=37.08 | change_pct=-12.39% | CMG rose -12.39% from its 37.08 days recent maximum price.
+2026-05-08T19:57:01 | CMI | Cummins | DROP | current_price=679.95 | reference_price=510.05 | change_pct=33.31% | CMI dropped 33.31% from its 510.05 days recent minimum price.
+2026-05-08T19:57:01 | CNC | Centene Corporation | DROP | current_price=55.96 | reference_price=31.63 | change_pct=76.90% | CNC dropped 76.90% from its 31.63 days recent minimum price.
+2026-05-08T19:57:01 | COF | Capital One | RISE | current_price=189.48 | reference_price=210.84 | change_pct=-10.13% | COF rose -10.13% from its 210.84 days recent maximum price.
+2026-05-08T19:57:01 | COHR | Coherent Corp. | DROP | current_price=335.25 | reference_price=215.55 | change_pct=55.53% | COHR dropped 55.53% from its 215.55 days recent minimum price.
+2026-05-08T19:57:01 | COIN | Coinbase | DROP | current_price=201.21 | reference_price=158.46 | change_pct=26.98% | COIN dropped 26.98% from its 158.46 days recent minimum price.
+2026-05-08T19:57:01 | COO | Cooper Companies (The) | RISE | current_price=60.01 | reference_price=72.63 | change_pct=-17.38% | COO rose -17.38% from its 72.63 days recent maximum price.
+2026-05-08T19:57:01 | COP | ConocoPhillips | RISE | current_price=113.82 | reference_price=135.87 | change_pct=-16.23% | COP rose -16.23% from its 135.87 days recent maximum price.
+2026-05-08T19:57:01 | COR | Cencora | RISE | current_price=261.19 | reference_price=327.99 | change_pct=-20.37% | COR rose -20.37% from its 327.99 days recent maximum price.
+2026-05-08T19:57:01 | CPAY | Corpay | DROP | current_price=344.00 | reference_price=281.83 | change_pct=22.06% | CPAY dropped 22.06% from its 281.83 days recent minimum price.
+2026-05-08T19:57:01 | CRH | CRH plc | DROP | current_price=113.77 | reference_price=100.90 | change_pct=12.76% | CRH dropped 12.76% from its 100.90 days recent minimum price.
+2026-05-08T19:57:01 | CRL | Charles River Laboratories | DROP | current_price=177.62 | reference_price=153.25 | change_pct=15.90% | CRL dropped 15.90% from its 153.25 days recent minimum price.
+2026-05-08T19:57:01 | CRM | Salesforce | DROP | current_price=181.73 | reference_price=163.52 | change_pct=11.14% | CRM dropped 11.14% from its 163.52 days recent minimum price.
+2026-05-08T19:57:01 | CRWD | CrowdStrike | DROP | current_price=527.68 | reference_price=361.81 | change_pct=45.85% | CRWD dropped 45.85% from its 361.81 days recent minimum price.
+2026-05-08T19:57:01 | CSCO | Cisco | DROP | current_price=96.57 | reference_price=76.31 | change_pct=26.55% | CSCO dropped 26.55% from its 76.31 days recent minimum price.
+2026-05-08T19:57:01 | CSGP | CoStar Group | RISE | current_price=32.76 | reference_price=41.63 | change_pct=-21.31% | CSGP rose -21.31% from its 41.63 days recent maximum price.
+2026-05-08T19:57:01 | CSX | CSX Corporation | DROP | current_price=44.81 | reference_price=39.19 | change_pct=14.33% | CSX dropped 14.33% from its 39.19 days recent minimum price.
+2026-05-08T19:57:01 | CTSH | Cognizant | RISE | current_price=51.69 | reference_price=63.03 | change_pct=-17.99% | CTSH rose -17.99% from its 63.03 days recent maximum price.
+2026-05-08T19:57:01 | CVNA | Carvana | DROP | current_price=77.93 | reference_price=54.46 | change_pct=43.09% | CVNA dropped 43.09% from its 54.46 days recent minimum price.
+2026-05-08T19:57:01 | CVS | CVS Health | DROP | current_price=90.55 | reference_price=69.51 | change_pct=30.27% | CVS dropped 30.27% from its 69.51 days recent minimum price.
+2026-05-08T19:57:01 | CVX | Chevron Corporation | RISE | current_price=181.46 | reference_price=214.71 | change_pct=-15.49% | CVX rose -15.49% from its 214.71 days recent maximum price.
+2026-05-08T19:57:01 | DAL | Delta Air Lines | DROP | current_price=73.33 | reference_price=62.94 | change_pct=16.51% | DAL dropped 16.51% from its 62.94 days recent minimum price.
+2026-05-08T19:57:01 | DASH | DoorDash | DROP | current_price=163.89 | reference_price=143.30 | change_pct=14.37% | DASH dropped 14.37% from its 143.30 days recent minimum price.
+2026-05-08T19:57:01 | DASH | DoorDash | RISE | current_price=163.89 | reference_price=191.16 | change_pct=-14.27% | DASH rose -14.27% from its 191.16 days recent maximum price.
+2026-05-08T19:57:01 | DD | DuPont | DROP | current_price=49.75 | reference_price=43.93 | change_pct=13.25% | DD dropped 13.25% from its 43.93 days recent minimum price.
+2026-05-08T19:57:01 | DDOG | Datadog | DROP | current_price=200.14 | reference_price=100.79 | change_pct=98.56% | DDOG dropped 98.56% from its 100.79 days recent minimum price.
+2026-05-08T19:57:01 | DECK | Deckers Brands | RISE | current_price=100.41 | reference_price=113.87 | change_pct=-11.82% | DECK rose -11.82% from its 113.87 days recent maximum price.
+2026-05-08T19:57:01 | DELL | Dell Technologies | DROP | current_price=260.33 | reference_price=155.37 | change_pct=67.55% | DELL dropped 67.55% from its 155.37 days recent minimum price.
+2026-05-08T19:57:01 | DG | Dollar General | RISE | current_price=113.28 | reference_price=127.26 | change_pct=-10.99% | DG rose -10.99% from its 127.26 days recent maximum price.
+2026-05-08T19:57:01 | DGX | Quest Diagnostics | RISE | current_price=187.40 | reference_price=209.79 | change_pct=-10.67% | DGX rose -10.67% from its 209.79 days recent maximum price.
+2026-05-08T19:57:01 | DHI | D. R. Horton | DROP | current_price=147.64 | reference_price=132.39 | change_pct=11.52% | DHI dropped 11.52% from its 132.39 days recent minimum price.
+2026-05-08T19:57:01 | DHI | D. R. Horton | RISE | current_price=147.64 | reference_price=166.98 | change_pct=-11.58% | DHI rose -11.58% from its 166.98 days recent maximum price.
+2026-05-08T19:57:01 | DHR | Danaher Corporation | RISE | current_price=171.13 | reference_price=200.50 | change_pct=-14.65% | DHR rose -14.65% from its 200.50 days recent maximum price.
+2026-05-08T19:57:01 | DIS | Walt Disney Company (The) | DROP | current_price=107.99 | reference_price=92.18 | change_pct=17.14% | DIS dropped 17.14% from its 92.18 days recent minimum price.
+2026-05-08T19:57:01 | DLR | Digital Realty | DROP | current_price=195.28 | reference_price=173.50 | change_pct=12.55% | DLR dropped 12.55% from its 173.50 days recent minimum price.
+2026-05-08T19:57:01 | DLTR | Dollar Tree | RISE | current_price=94.25 | reference_price=111.47 | change_pct=-15.45% | DLTR rose -15.45% from its 111.47 days recent maximum price.
+2026-05-08T19:57:01 | DOC | Healthpeak Properties | DROP | current_price=19.63 | reference_price=15.70 | change_pct=25.03% | DOC dropped 25.03% from its 15.70 days recent minimum price.
+2026-05-08T19:57:01 | DOW | Dow Inc. | RISE | current_price=36.88 | reference_price=42.74 | change_pct=-13.71% | DOW rose -13.71% from its 42.74 days recent maximum price.
+2026-05-08T19:57:01 | DPZ | Domino's | RISE | current_price=323.42 | reference_price=382.13 | change_pct=-15.36% | DPZ rose -15.36% from its 382.13 days recent maximum price.
+2026-05-08T19:57:01 | DVA | DaVita | DROP | current_price=198.70 | reference_price=143.07 | change_pct=38.88% | DVA dropped 38.88% from its 143.07 days recent minimum price.
+2026-05-08T19:57:01 | DVN | Devon Energy | RISE | current_price=45.61 | reference_price=52.71 | change_pct=-13.47% | DVN rose -13.47% from its 52.71 days recent maximum price.
+2026-05-08T19:57:01 | EBAY | eBay Inc. | DROP | current_price=107.68 | reference_price=87.20 | change_pct=23.49% | EBAY dropped 23.49% from its 87.20 days recent minimum price.
+2026-05-08T19:57:01 | EFX | Equifax | RISE | current_price=175.84 | reference_price=200.09 | change_pct=-12.12% | EFX rose -12.12% from its 200.09 days recent maximum price.
+2026-05-08T19:57:01 | EG | Everest Group | DROP | current_price=351.48 | reference_price=316.69 | change_pct=10.99% | EG dropped 10.99% from its 316.69 days recent minimum price.
+2026-05-08T19:57:01 | EL | Estée Lauder Companies (The) | DROP | current_price=86.19 | reference_price=66.22 | change_pct=30.16% | EL dropped 30.16% from its 66.22 days recent minimum price.
+2026-05-08T19:57:01 | ELV | Elevance Health | DROP | current_price=377.78 | reference_price=282.46 | change_pct=33.75% | ELV dropped 33.75% from its 282.46 days recent minimum price.
+2026-05-08T19:57:01 | EME | Emcor | DROP | current_price=921.34 | reference_price=695.54 | change_pct=32.46% | EME dropped 32.46% from its 695.54 days recent minimum price.
+2026-05-08T19:57:01 | EMR | Emerson Electric | DROP | current_price=141.29 | reference_price=122.64 | change_pct=15.21% | EMR dropped 15.21% from its 122.64 days recent minimum price.
+2026-05-08T19:57:01 | EOG | EOG Resources | RISE | current_price=130.01 | reference_price=151.87 | change_pct=-14.39% | EOG rose -14.39% from its 151.87 days recent maximum price.
+2026-05-08T19:57:01 | EPAM | EPAM Systems | RISE | current_price=99.28 | reference_price=141.27 | change_pct=-29.73% | EPAM rose -29.73% from its 141.27 days recent maximum price.
+2026-05-08T19:57:01 | EQIX | Equinix | DROP | current_price=1071.73 | reference_price=958.27 | change_pct=11.84% | EQIX dropped 11.84% from its 958.27 days recent minimum price.
+2026-05-08T19:57:01 | EQR | Equity Residential | DROP | current_price=65.53 | reference_price=58.08 | change_pct=12.83% | EQR dropped 12.83% from its 58.08 days recent minimum price.
+2026-05-08T19:57:01 | EQT | EQT Corporation | RISE | current_price=55.96 | reference_price=68.24 | change_pct=-18.00% | EQT rose -18.00% from its 68.24 days recent maximum price.
+2026-05-08T19:57:01 | ERIE | Erie Indemnity | RISE | current_price=216.01 | reference_price=262.24 | change_pct=-17.63% | ERIE rose -17.63% from its 262.24 days recent maximum price.
+2026-05-08T19:57:01 | ESS | Essex Property Trust | DROP | current_price=263.50 | reference_price=238.46 | change_pct=10.50% | ESS dropped 10.50% from its 238.46 days recent minimum price.
+2026-05-08T19:57:01 | ETN | Eaton Corporation | DROP | current_price=401.71 | reference_price=342.00 | change_pct=17.46% | ETN dropped 17.46% from its 342.00 days recent minimum price.
+2026-05-08T19:57:01 | EXC | Exelon | RISE | current_price=43.88 | reference_price=50.10 | change_pct=-12.41% | EXC rose -12.41% from its 50.10 days recent maximum price.
+2026-05-08T19:57:01 | EXE | Expand Energy | RISE | current_price=95.93 | reference_price=114.49 | change_pct=-16.21% | EXE rose -16.21% from its 114.49 days recent maximum price.
+2026-05-08T19:57:01 | EXPD | Expeditors International | DROP | current_price=156.67 | reference_price=136.13 | change_pct=15.09% | EXPD dropped 15.09% from its 136.13 days recent minimum price.
+2026-05-08T19:57:01 | EXPE | Expedia Group | RISE | current_price=230.32 | reference_price=279.76 | change_pct=-17.67% | EXPE rose -17.67% from its 279.76 days recent maximum price.
+2026-05-08T19:57:01 | EXR | Extra Space Storage | DROP | current_price=143.34 | reference_price=127.67 | change_pct=12.28% | EXR dropped 12.28% from its 127.67 days recent minimum price.
+2026-05-08T19:57:01 | F | Ford Motor Company | DROP | current_price=12.33 | reference_price=11.11 | change_pct=10.98% | F dropped 10.98% from its 11.11 days recent minimum price.
+2026-05-08T19:57:01 | FANG | Diamondback Energy | DROP | current_price=188.69 | reference_price=170.62 | change_pct=10.59% | FANG dropped 10.59% from its 170.62 days recent minimum price.
+2026-05-08T19:57:01 | FANG | Diamondback Energy | RISE | current_price=188.69 | reference_price=214.51 | change_pct=-12.04% | FANG rose -12.04% from its 214.51 days recent maximum price.
+2026-05-08T19:57:01 | FAST | Fastenal | RISE | current_price=44.16 | reference_price=49.67 | change_pct=-11.09% | FAST rose -11.09% from its 49.67 days recent maximum price.
+2026-05-08T19:57:01 | FCX | Freeport-McMoRan | DROP | current_price=61.65 | reference_price=54.17 | change_pct=13.81% | FCX dropped 13.81% from its 54.17 days recent minimum price.
+2026-05-08T19:57:01 | FCX | Freeport-McMoRan | RISE | current_price=61.65 | reference_price=70.96 | change_pct=-13.13% | FCX rose -13.13% from its 70.96 days recent maximum price.
+2026-05-08T19:57:01 | FDS | FactSet | DROP | current_price=223.58 | reference_price=191.63 | change_pct=16.67% | FDS dropped 16.67% from its 191.63 days recent minimum price.
+2026-05-08T19:57:01 | FDX | FedEx | DROP | current_price=378.37 | reference_price=341.25 | change_pct=10.88% | FDX dropped 10.88% from its 341.25 days recent minimum price.
+2026-05-08T19:57:01 | FE | FirstEnergy | RISE | current_price=44.33 | reference_price=52.34 | change_pct=-15.30% | FE rose -15.30% from its 52.34 days recent maximum price.
+2026-05-08T19:57:01 | FFIV | F5, Inc. | DROP | current_price=354.17 | reference_price=277.18 | change_pct=27.78% | FFIV dropped 27.78% from its 277.18 days recent minimum price.
+2026-05-08T19:57:01 | FICO | Fair Isaac | DROP | current_price=1126.46 | reference_price=870.01 | change_pct=29.48% | FICO dropped 29.48% from its 870.01 days recent minimum price.
+2026-05-08T19:57:01 | FIS | Fidelity National Information Services | RISE | current_price=43.51 | reference_price=49.28 | change_pct=-11.71% | FIS rose -11.71% from its 49.28 days recent maximum price.
+2026-05-08T19:57:01 | FISV | Fiserv | RISE | current_price=55.48 | reference_price=65.29 | change_pct=-15.03% | FISV rose -15.03% from its 65.29 days recent maximum price.
+2026-05-08T19:57:01 | FITB | Fifth Third Bancorp | DROP | current_price=49.34 | reference_price=44.33 | change_pct=11.30% | FITB dropped 11.30% from its 44.33 days recent minimum price.
+2026-05-08T19:57:01 | FIX | Comfort Systems USA | DROP | current_price=1950.93 | reference_price=1255.00 | change_pct=55.45% | FIX dropped 55.45% from its 1255.00 days recent minimum price.
+2026-05-08T19:57:01 | FOXA | Fox Corporation (Class A) | DROP | current_price=62.94 | reference_price=57.19 | change_pct=10.05% | FOXA dropped 10.05% from its 57.19 days recent minimum price.
+2026-05-08T19:57:01 | FRT | Federal Realty Investment Trust | DROP | current_price=115.70 | reference_price=102.40 | change_pct=12.99% | FRT dropped 12.99% from its 102.40 days recent minimum price.
+2026-05-08T19:57:01 | FSLR | First Solar | DROP | current_price=220.04 | reference_price=182.99 | change_pct=20.25% | FSLR dropped 20.25% from its 182.99 days recent minimum price.
+2026-05-08T19:57:01 | FTNT | Fortinet | DROP | current_price=114.07 | reference_price=76.01 | change_pct=50.06% | FTNT dropped 50.06% from its 76.01 days recent minimum price.
+2026-05-08T19:57:01 | FTV | Fortive | DROP | current_price=60.42 | reference_price=53.48 | change_pct=12.98% | FTV dropped 12.98% from its 53.48 days recent minimum price.
+2026-05-08T19:57:01 | GD | General Dynamics | DROP | current_price=346.43 | reference_price=306.77 | change_pct=12.93% | GD dropped 12.93% from its 306.77 days recent minimum price.
+2026-05-08T19:57:01 | GDDY | GoDaddy | DROP | current_price=91.01 | reference_price=78.22 | change_pct=16.35% | GDDY dropped 16.35% from its 78.22 days recent minimum price.
+2026-05-08T19:57:01 | GE | GE Aerospace | DROP | current_price=297.12 | reference_price=268.91 | change_pct=10.49% | GE dropped 10.49% from its 268.91 days recent minimum price.
+2026-05-08T19:57:01 | GEHC | GE HealthCare | RISE | current_price=63.48 | reference_price=75.95 | change_pct=-16.42% | GEHC rose -16.42% from its 75.95 days recent maximum price.
+2026-05-08T19:57:01 | GEN | Gen Digital | DROP | current_price=22.69 | reference_price=17.78 | change_pct=27.62% | GEN dropped 27.62% from its 17.78 days recent minimum price.
+2026-05-08T19:57:01 | GEV | GE Vernova | DROP | current_price=1040.00 | reference_price=807.00 | change_pct=28.87% | GEV dropped 28.87% from its 807.00 days recent minimum price.
+2026-05-08T19:57:01 | GEV | GE Vernova | RISE | current_price=1040.00 | reference_price=1181.95 | change_pct=-12.01% | GEV rose -12.01% from its 1181.95 days recent maximum price.
+2026-05-08T19:57:01 | GL | Globe Life | DROP | current_price=151.08 | reference_price=135.08 | change_pct=11.85% | GL dropped 11.85% from its 135.08 days recent minimum price.
+2026-05-08T19:57:01 | GLW | Corning Inc. | DROP | current_price=186.83 | reference_price=126.68 | change_pct=47.48% | GLW dropped 47.48% from its 126.68 days recent minimum price.
+2026-05-08T19:57:01 | GM | General Motors | DROP | current_price=78.78 | reference_price=71.60 | change_pct=10.03% | GM dropped 10.03% from its 71.60 days recent minimum price.
+2026-05-08T19:57:01 | GNRC | Generac | DROP | current_price=269.27 | reference_price=184.41 | change_pct=46.02% | GNRC dropped 46.02% from its 184.41 days recent minimum price.
+2026-05-08T19:57:01 | GOOG | Alphabet Inc. (Class C) | DROP | current_price=397.07 | reference_price=271.54 | change_pct=46.23% | GOOG dropped 46.23% from its 271.54 days recent minimum price.
+2026-05-08T19:57:01 | GOOGL | Alphabet Inc. (Class A) | DROP | current_price=400.81 | reference_price=272.11 | change_pct=47.30% | GOOGL dropped 47.30% from its 272.11 days recent minimum price.
+2026-05-08T19:57:01 | GPC | Genuine Parts Company | RISE | current_price=104.76 | reference_price=116.77 | change_pct=-10.29% | GPC rose -10.29% from its 116.77 days recent maximum price.
+2026-05-08T19:57:01 | GPN | Global Payments | DROP | current_price=69.19 | reference_price=62.45 | change_pct=10.79% | GPN dropped 10.79% from its 62.45 days recent minimum price.
+2026-05-08T19:57:01 | GRMN | Garmin | RISE | current_price=240.08 | reference_price=273.32 | change_pct=-12.16% | GRMN rose -12.16% from its 273.32 days recent maximum price.
+2026-05-08T19:57:01 | GS | Goldman Sachs | DROP | current_price=936.53 | reference_price=797.78 | change_pct=17.39% | GS dropped 17.39% from its 797.78 days recent minimum price.
+2026-05-08T19:57:01 | GWW | W. W. Grainger | DROP | current_price=1232.42 | reference_price=1050.13 | change_pct=17.36% | GWW dropped 17.36% from its 1050.13 days recent minimum price.
+2026-05-08T19:57:01 | HAL | Halliburton | DROP | current_price=39.83 | reference_price=35.51 | change_pct=12.17% | HAL dropped 12.17% from its 35.51 days recent minimum price.
+2026-05-08T19:57:01 | HAS | Hasbro | DROP | current_price=97.78 | reference_price=87.30 | change_pct=12.00% | HAS dropped 12.00% from its 87.30 days recent minimum price.
+2026-05-08T19:57:01 | HCA | HCA Healthcare | RISE | current_price=435.01 | reference_price=512.14 | change_pct=-15.06% | HCA rose -15.06% from its 512.14 days recent maximum price.
+2026-05-08T19:57:01 | HD | Home Depot (The) | RISE | current_price=317.42 | reference_price=353.55 | change_pct=-10.22% | HD rose -10.22% from its 353.55 days recent maximum price.
+2026-05-08T19:57:01 | HII | Huntington Ingalls Industries | RISE | current_price=316.30 | reference_price=414.03 | change_pct=-23.60% | HII rose -23.60% from its 414.03 days recent maximum price.
+2026-05-08T19:57:01 | HON | Honeywell | RISE | current_price=213.12 | reference_price=236.83 | change_pct=-10.01% | HON rose -10.01% from its 236.83 days recent maximum price.
+2026-05-08T19:57:01 | HOOD | Robinhood Markets | DROP | current_price=77.06 | reference_price=63.52 | change_pct=21.31% | HOOD dropped 21.31% from its 63.52 days recent minimum price.
+2026-05-08T19:57:01 | HOOD | Robinhood Markets | RISE | current_price=77.06 | reference_price=93.32 | change_pct=-17.43% | HOOD rose -17.43% from its 93.32 days recent maximum price.
+2026-05-08T19:57:01 | HPE | Hewlett Packard Enterprise | DROP | current_price=31.33 | reference_price=22.30 | change_pct=40.52% | HPE dropped 40.52% from its 22.30 days recent minimum price.
+2026-05-08T19:57:01 | HPQ | HP Inc. | DROP | current_price=22.68 | reference_price=18.12 | change_pct=25.13% | HPQ dropped 25.13% from its 18.12 days recent minimum price.
+2026-05-08T19:57:01 | HRL | Hormel Foods | RISE | current_price=20.43 | reference_price=23.25 | change_pct=-12.13% | HRL rose -12.13% from its 23.25 days recent maximum price.
+2026-05-08T19:57:01 | HSIC | Henry Schein | RISE | current_price=70.81 | reference_price=81.01 | change_pct=-12.60% | HSIC rose -12.60% from its 81.01 days recent maximum price.
+2026-05-08T19:57:01 | HST | Host Hotels & Resorts | DROP | current_price=22.27 | reference_price=18.75 | change_pct=18.74% | HST dropped 18.74% from its 18.75 days recent minimum price.
+2026-05-08T19:57:01 | HSY | Hershey Company (The) | RISE | current_price=185.94 | reference_price=216.07 | change_pct=-13.95% | HSY rose -13.95% from its 216.07 days recent maximum price.
+2026-05-08T19:57:01 | HUBB | Hubbell Incorporated | RISE | current_price=492.57 | reference_price=565.50 | change_pct=-12.90% | HUBB rose -12.90% from its 565.50 days recent maximum price.
+2026-05-08T19:57:01 | HUM | Humana | DROP | current_price=274.86 | reference_price=164.50 | change_pct=67.09% | HUM dropped 67.09% from its 164.50 days recent minimum price.
+2026-05-08T19:57:01 | HWM | Howmet Aerospace | DROP | current_price=270.45 | reference_price=220.51 | change_pct=22.65% | HWM dropped 22.65% from its 220.51 days recent minimum price.
+2026-05-08T19:57:01 | IBKR | Interactive Brokers | DROP | current_price=84.44 | reference_price=63.02 | change_pct=33.98% | IBKR dropped 33.98% from its 63.02 days recent minimum price.
+2026-05-08T19:57:01 | IBM | IBM | RISE | current_price=229.66 | reference_price=258.50 | change_pct=-11.16% | IBM rose -11.16% from its 258.50 days recent maximum price.
+2026-05-08T19:57:01 | IEX | IDEX Corporation | DROP | current_price=216.97 | reference_price=182.99 | change_pct=18.57% | IEX dropped 18.57% from its 182.99 days recent minimum price.
+2026-05-08T19:57:01 | IFF | International Flavors & Fragrances | DROP | current_price=81.04 | reference_price=68.34 | change_pct=18.58% | IFF dropped 18.58% from its 68.34 days recent minimum price.
+2026-05-08T19:57:01 | INTC | Intel | DROP | current_price=124.92 | reference_price=40.63 | change_pct=207.46% | INTC dropped 207.46% from its 40.63 days recent minimum price.
+2026-05-08T19:57:01 | INTU | Intuit | DROP | current_price=396.30 | reference_price=342.11 | change_pct=15.84% | INTU dropped 15.84% from its 342.11 days recent minimum price.
+2026-05-08T19:57:01 | INVH | Invitation Homes | DROP | current_price=28.74 | reference_price=24.34 | change_pct=18.06% | INVH dropped 18.06% from its 24.34 days recent minimum price.
+2026-05-08T19:57:01 | IP | International Paper | DROP | current_price=33.02 | reference_price=29.45 | change_pct=12.11% | IP dropped 12.11% from its 29.45 days recent minimum price.
+2026-05-08T19:57:01 | IP | International Paper | RISE | current_price=33.02 | reference_price=38.06 | change_pct=-13.25% | IP rose -13.25% from its 38.06 days recent maximum price.
+2026-05-08T19:57:01 | IQV | IQVIA | DROP | current_price=178.68 | reference_price=154.50 | change_pct=15.65% | IQV dropped 15.65% from its 154.50 days recent minimum price.
+2026-05-08T19:57:01 | IR | Ingersoll Rand | RISE | current_price=75.76 | reference_price=89.10 | change_pct=-14.97% | IR rose -14.97% from its 89.10 days recent maximum price.
+2026-05-08T19:57:01 | IRM | Iron Mountain | DROP | current_price=128.84 | reference_price=96.91 | change_pct=32.95% | IRM dropped 32.95% from its 96.91 days recent minimum price.
+2026-05-08T19:57:01 | IT | Gartner | DROP | current_price=158.65 | reference_price=141.76 | change_pct=11.91% | IT dropped 11.91% from its 141.76 days recent minimum price.
+2026-05-08T19:57:01 | IVZ | Invesco | DROP | current_price=27.59 | reference_price=21.82 | change_pct=26.44% | IVZ dropped 26.44% from its 21.82 days recent minimum price.
+2026-05-08T19:57:01 | J | Jacobs Solutions | RISE | current_price=118.41 | reference_price=137.77 | change_pct=-14.05% | J rose -14.05% from its 137.77 days recent maximum price.
+2026-05-08T19:57:01 | JBHT | J.B. Hunt | DROP | current_price=245.63 | reference_price=202.70 | change_pct=21.18% | JBHT dropped 21.18% from its 202.70 days recent minimum price.
+2026-05-08T19:57:01 | JBL | Jabil | DROP | current_price=355.08 | reference_price=245.20 | change_pct=44.82% | JBL dropped 44.82% from its 245.20 days recent minimum price.
+2026-05-08T19:57:01 | JCI | Johnson Controls | DROP | current_price=139.51 | reference_price=125.91 | change_pct=10.80% | JCI dropped 10.80% from its 125.91 days recent minimum price.
+2026-05-08T19:57:01 | JNJ | Johnson & Johnson | RISE | current_price=221.35 | reference_price=247.21 | change_pct=-10.46% | JNJ rose -10.46% from its 247.21 days recent maximum price.
+2026-05-08T19:57:01 | KDP | Keurig Dr Pepper | DROP | current_price=28.82 | reference_price=24.88 | change_pct=15.86% | KDP dropped 15.86% from its 24.88 days recent minimum price.
+2026-05-08T19:57:01 | KEY | KeyCorp | DROP | current_price=21.61 | reference_price=19.30 | change_pct=11.97% | KEY dropped 11.97% from its 19.30 days recent minimum price.
+2026-05-08T19:57:01 | KEYS | Keysight Technologies | DROP | current_price=360.36 | reference_price=266.47 | change_pct=35.23% | KEYS dropped 35.23% from its 266.47 days recent minimum price.
+2026-05-08T19:57:01 | KHC | Kraft Heinz | DROP | current_price=23.95 | reference_price=21.53 | change_pct=11.26% | KHC dropped 11.26% from its 21.53 days recent minimum price.
+2026-05-08T19:57:01 | KKR | KKR & Co. | DROP | current_price=102.51 | reference_price=86.31 | change_pct=18.78% | KKR dropped 18.78% from its 86.31 days recent minimum price.
+2026-05-08T19:57:01 | KLAC | KLA Corporation | DROP | current_price=1869.18 | reference_price=1374.43 | change_pct=36.00% | KLAC dropped 36.00% from its 1374.43 days recent minimum price.
+2026-05-08T19:57:01 | KR | Kroger | RISE | current_price=65.65 | reference_price=74.45 | change_pct=-11.82% | KR rose -11.82% from its 74.45 days recent maximum price.
+2026-05-08T19:57:01 | LDOS | Leidos | RISE | current_price=130.11 | reference_price=162.00 | change_pct=-19.69% | LDOS rose -19.69% from its 162.00 days recent maximum price.
+2026-05-08T19:57:01 | LHX | L3Harris | RISE | current_price=299.63 | reference_price=364.27 | change_pct=-17.75% | LHX rose -17.75% from its 364.27 days recent maximum price.
+2026-05-08T19:57:01 | LII | Lennox International | DROP | current_price=521.28 | reference_price=434.06 | change_pct=20.09% | LII dropped 20.09% from its 434.06 days recent minimum price.
+2026-05-08T19:57:01 | LITE | Lumentum | DROP | current_price=903.70 | reference_price=642.37 | change_pct=40.68% | LITE dropped 40.68% from its 642.37 days recent minimum price.
+2026-05-08T19:57:01 | LITE | Lumentum | RISE | current_price=903.70 | reference_price=1021.00 | change_pct=-11.49% | LITE rose -11.49% from its 1021.00 days recent maximum price.
+2026-05-08T19:57:01 | LLY | Lilly (Eli) | DROP | current_price=948.37 | reference_price=850.51 | change_pct=11.51% | LLY dropped 11.51% from its 850.51 days recent minimum price.
+2026-05-08T19:57:01 | LMT | Lockheed Martin | RISE | current_price=506.52 | reference_price=637.92 | change_pct=-20.60% | LMT rose -20.60% from its 637.92 days recent maximum price.
+2026-05-08T19:57:01 | LOW | Lowe's | RISE | current_price=229.14 | reference_price=257.10 | change_pct=-10.88% | LOW rose -10.88% from its 257.10 days recent maximum price.
+2026-05-08T19:57:01 | LRCX | Lam Research | DROP | current_price=294.12 | reference_price=198.60 | change_pct=48.10% | LRCX dropped 48.10% from its 198.60 days recent minimum price.
+2026-05-08T19:57:01 | LULU | Lululemon Athletica | RISE | current_price=131.17 | reference_price=170.20 | change_pct=-22.93% | LULU rose -22.93% from its 170.20 days recent maximum price.
+2026-05-08T19:57:01 | LUV | Southwest Airlines | DROP | current_price=41.31 | reference_price=35.73 | change_pct=15.62% | LUV dropped 15.62% from its 35.73 days recent minimum price.
+2026-05-08T19:57:01 | LYB | LyondellBasell | RISE | current_price=71.78 | reference_price=83.94 | change_pct=-14.49% | LYB rose -14.49% from its 83.94 days recent maximum price.
+2026-05-08T19:57:01 | LYV | Live Nation Entertainment | DROP | current_price=163.25 | reference_price=144.00 | change_pct=13.37% | LYV dropped 13.37% from its 144.00 days recent minimum price.
+2026-05-08T19:57:01 | MAR | Marriott International | DROP | current_price=353.21 | reference_price=316.54 | change_pct=11.58% | MAR dropped 11.58% from its 316.54 days recent minimum price.
+2026-05-08T19:57:01 | MAS | Masco | DROP | current_price=71.75 | reference_price=58.41 | change_pct=22.84% | MAS dropped 22.84% from its 58.41 days recent minimum price.
+2026-05-08T19:57:01 | MCD | McDonald's | RISE | current_price=275.75 | reference_price=312.54 | change_pct=-11.77% | MCD rose -11.77% from its 312.54 days recent maximum price.
+2026-05-08T19:57:01 | MCHP | Microchip Technology | DROP | current_price=99.14 | reference_price=59.31 | change_pct=67.16% | MCHP dropped 67.16% from its 59.31 days recent minimum price.
+2026-05-08T19:57:01 | MCK | McKesson Corporation | RISE | current_price=736.57 | reference_price=887.25 | change_pct=-16.98% | MCK rose -16.98% from its 887.25 days recent maximum price.
+2026-05-08T19:57:01 | MDLZ | Mondelez International | DROP | current_price=61.55 | reference_price=55.79 | change_pct=10.32% | MDLZ dropped 10.32% from its 55.79 days recent minimum price.
+2026-05-08T19:57:01 | MDT | Medtronic | RISE | current_price=76.14 | reference_price=88.84 | change_pct=-14.30% | MDT rose -14.30% from its 88.84 days recent maximum price.
+2026-05-08T19:57:01 | MET | MetLife | DROP | current_price=78.08 | reference_price=67.33 | change_pct=15.97% | MET dropped 15.97% from its 67.33 days recent minimum price.
+2026-05-08T19:57:01 | META | Meta Platforms | DROP | current_price=609.64 | reference_price=520.26 | change_pct=17.18% | META dropped 17.18% from its 520.26 days recent minimum price.
+2026-05-08T19:57:01 | META | Meta Platforms | RISE | current_price=609.64 | reference_price=691.50 | change_pct=-11.84% | META rose -11.84% from its 691.50 days recent maximum price.
+2026-05-08T19:57:01 | MKC | McCormick & Company | RISE | current_price=48.31 | reference_price=54.71 | change_pct=-11.70% | MKC rose -11.70% from its 54.71 days recent maximum price.
+2026-05-08T19:57:01 | MNST | Monster Beverage | DROP | current_price=86.31 | reference_price=70.86 | change_pct=21.80% | MNST dropped 21.80% from its 70.86 days recent minimum price.
+2026-05-08T19:57:01 | MOS | Mosaic Company (The) | RISE | current_price=22.19 | reference_price=27.15 | change_pct=-18.27% | MOS rose -18.27% from its 27.15 days recent maximum price.
+2026-05-08T19:57:01 | MPC | Marathon Petroleum | DROP | current_price=244.97 | reference_price=210.64 | change_pct=16.30% | MPC dropped 16.30% from its 210.64 days recent minimum price.
+2026-05-08T19:57:01 | MPWR | Monolithic Power Systems | DROP | current_price=1600.54 | reference_price=996.01 | change_pct=60.70% | MPWR dropped 60.70% from its 996.01 days recent minimum price.
+2026-05-08T19:57:01 | MRK | Merck & Co. | RISE | current_price=111.38 | reference_price=124.00 | change_pct=-10.18% | MRK rose -10.18% from its 124.00 days recent maximum price.
+2026-05-08T19:57:01 | MRNA | Moderna | DROP | current_price=54.34 | reference_price=43.68 | change_pct=24.40% | MRNA dropped 24.40% from its 43.68 days recent minimum price.
+2026-05-08T19:57:01 | MRSH | Marsh McLennan | RISE | current_price=163.34 | reference_price=183.45 | change_pct=-10.96% | MRSH rose -10.96% from its 183.45 days recent maximum price.
+2026-05-08T19:57:01 | MS | Morgan Stanley | DROP | current_price=193.07 | reference_price=157.22 | change_pct=22.80% | MS dropped 22.80% from its 157.22 days recent minimum price.
+2026-05-08T19:57:01 | MSCI | MSCI Inc. | DROP | current_price=585.42 | reference_price=520.00 | change_pct=12.58% | MSCI dropped 12.58% from its 520.00 days recent minimum price.
+2026-05-08T19:57:01 | MSFT | Microsoft | DROP | current_price=415.15 | reference_price=356.28 | change_pct=16.52% | MSFT dropped 16.52% from its 356.28 days recent minimum price.
+2026-05-08T19:57:01 | MSI | Motorola Solutions | RISE | current_price=383.87 | reference_price=450.75 | change_pct=-14.84% | MSI rose -14.84% from its 450.75 days recent maximum price.
+2026-05-08T19:57:01 | MTD | Mettler Toledo | RISE | current_price=1125.00 | reference_price=1365.79 | change_pct=-17.63% | MTD rose -17.63% from its 1365.79 days recent maximum price.
+2026-05-08T19:57:01 | MU | Micron Technology | DROP | current_price=747.07 | reference_price=311.49 | change_pct=139.84% | MU dropped 139.84% from its 311.49 days recent minimum price.
+2026-05-08T19:57:01 | NCLH | Norwegian Cruise Line Holdings | RISE | current_price=17.08 | reference_price=22.22 | change_pct=-23.15% | NCLH rose -23.15% from its 22.22 days recent maximum price.
+2026-05-08T19:57:01 | NDSN | Nordson Corporation | DROP | current_price=283.46 | reference_price=253.85 | change_pct=11.66% | NDSN dropped 11.66% from its 253.85 days recent minimum price.
+2026-05-08T19:57:01 | NEM | Newmont | DROP | current_price=116.50 | reference_price=98.51 | change_pct=18.27% | NEM dropped 18.27% from its 98.51 days recent minimum price.
+2026-05-08T19:57:01 | NFLX | Netflix | RISE | current_price=87.45 | reference_price=108.94 | change_pct=-19.73% | NFLX rose -19.73% from its 108.94 days recent maximum price.
+2026-05-08T19:57:01 | NKE | Nike, Inc. | RISE | current_price=44.16 | reference_price=53.11 | change_pct=-16.85% | NKE rose -16.85% from its 53.11 days recent maximum price.
+2026-05-08T19:57:01 | NOC | Northrop Grumman | RISE | current_price=549.47 | reference_price=708.55 | change_pct=-22.45% | NOC rose -22.45% from its 708.55 days recent maximum price.
+2026-05-08T19:57:01 | NOW | ServiceNow | DROP | current_price=91.18 | reference_price=81.24 | change_pct=12.24% | NOW dropped 12.24% from its 81.24 days recent minimum price.
+2026-05-08T19:57:01 | NOW | ServiceNow | RISE | current_price=91.18 | reference_price=106.58 | change_pct=-14.45% | NOW rose -14.45% from its 106.58 days recent maximum price.
+2026-05-08T19:57:01 | NRG | NRG Energy | RISE | current_price=138.05 | reference_price=175.51 | change_pct=-21.35% | NRG rose -21.35% from its 175.51 days recent maximum price.
+2026-05-08T19:57:01 | NSC | Norfolk Southern | DROP | current_price=312.17 | reference_price=280.94 | change_pct=11.12% | NSC dropped 11.12% from its 280.94 days recent minimum price.
+2026-05-08T19:57:01 | NTAP | NetApp | DROP | current_price=118.02 | reference_price=94.89 | change_pct=24.38% | NTAP dropped 24.38% from its 94.89 days recent minimum price.
+2026-05-08T19:57:01 | NTRS | Northern Trust | DROP | current_price=160.41 | reference_price=134.37 | change_pct=19.38% | NTRS dropped 19.38% from its 134.37 days recent minimum price.
+2026-05-08T19:57:01 | NUE | Nucor | DROP | current_price=227.50 | reference_price=162.60 | change_pct=39.91% | NUE dropped 39.91% from its 162.60 days recent minimum price.
+2026-05-08T19:57:01 | NVDA | Nvidia | DROP | current_price=215.21 | reference_price=164.27 | change_pct=31.01% | NVDA dropped 31.01% from its 164.27 days recent minimum price.
+2026-05-08T19:57:01 | NVR | NVR, Inc. | RISE | current_price=5976.06 | reference_price=7294.50 | change_pct=-18.07% | NVR rose -18.07% from its 7294.50 days recent maximum price.
+2026-05-08T19:57:01 | NWS | News Corp (Class B) | DROP | current_price=31.30 | reference_price=27.23 | change_pct=14.95% | NWS dropped 14.95% from its 27.23 days recent minimum price.
+2026-05-08T19:57:01 | NWSA | News Corp (Class A) | DROP | current_price=27.03 | reference_price=23.90 | change_pct=13.12% | NWSA dropped 13.12% from its 23.90 days recent minimum price.
+2026-05-08T19:57:01 | NXPI | NXP Semiconductors | DROP | current_price=294.77 | reference_price=184.68 | change_pct=59.61% | NXPI dropped 59.61% from its 184.68 days recent minimum price.
+2026-05-08T19:57:01 | ODFL | Old Dominion | RISE | current_price=198.34 | reference_price=233.79 | change_pct=-15.16% | ODFL rose -15.16% from its 233.79 days recent maximum price.
+2026-05-08T19:57:01 | OKE | Oneok | RISE | current_price=85.16 | reference_price=95.30 | change_pct=-10.64% | OKE rose -10.64% from its 95.30 days recent maximum price.
+2026-05-08T19:57:01 | ON | ON Semiconductor | DROP | current_price=103.20 | reference_price=55.03 | change_pct=87.55% | ON dropped 87.55% from its 55.03 days recent minimum price.
+2026-05-08T19:57:01 | ORCL | Oracle Corporation | DROP | current_price=195.94 | reference_price=134.57 | change_pct=45.60% | ORCL dropped 45.60% from its 134.57 days recent minimum price.
+2026-05-08T19:57:01 | OXY | Occidental Petroleum | RISE | current_price=53.04 | reference_price=67.45 | change_pct=-21.36% | OXY rose -21.36% from its 67.45 days recent maximum price.
+2026-05-08T19:57:01 | PANW | Palo Alto Networks | DROP | current_price=207.84 | reference_price=143.50 | change_pct=44.84% | PANW dropped 44.84% from its 143.50 days recent minimum price.
+2026-05-08T19:57:01 | PCAR | Paccar | RISE | current_price=114.31 | reference_price=129.31 | change_pct=-11.60% | PCAR rose -11.60% from its 129.31 days recent maximum price.
+2026-05-08T19:57:01 | PCG | PG&E Corporation | RISE | current_price=16.05 | reference_price=18.92 | change_pct=-15.20% | PCG rose -15.20% from its 18.92 days recent maximum price.
+2026-05-08T19:57:01 | PFE | Pfizer | RISE | current_price=25.67 | reference_price=28.75 | change_pct=-10.70% | PFE rose -10.70% from its 28.75 days recent maximum price.
+2026-05-08T19:57:01 | PFG | Principal Financial Group | DROP | current_price=100.49 | reference_price=86.81 | change_pct=15.76% | PFG dropped 15.76% from its 86.81 days recent minimum price.
+2026-05-08T19:57:01 | PH | Parker Hannifin | RISE | current_price=878.46 | reference_price=1029.00 | change_pct=-14.63% | PH rose -14.63% from its 1029.00 days recent maximum price.
+2026-05-08T19:57:01 | PHM | PulteGroup | RISE | current_price=117.54 | reference_price=133.13 | change_pct=-11.71% | PHM rose -11.71% from its 133.13 days recent maximum price.
+2026-05-08T19:57:01 | PKG | Packaging Corporation of America | DROP | current_price=224.59 | reference_price=201.56 | change_pct=11.43% | PKG dropped 11.43% from its 201.56 days recent minimum price.
+2026-05-08T19:57:01 | PLD | Prologis | DROP | current_price=144.12 | reference_price=128.11 | change_pct=12.50% | PLD dropped 12.50% from its 128.11 days recent minimum price.
+2026-05-08T19:57:01 | PLTR | Palantir Technologies | DROP | current_price=137.80 | reference_price=122.68 | change_pct=12.32% | PLTR dropped 12.32% from its 122.68 days recent minimum price.
+2026-05-08T19:57:01 | PLTR | Palantir Technologies | RISE | current_price=137.80 | reference_price=156.25 | change_pct=-11.81% | PLTR rose -11.81% from its 156.25 days recent maximum price.
+2026-05-08T19:57:01 | PM | Philip Morris International | DROP | current_price=170.99 | reference_price=151.63 | change_pct=12.77% | PM dropped 12.77% from its 151.63 days recent minimum price.
+2026-05-08T19:57:01 | PNR | Pentair | RISE | current_price=76.83 | reference_price=94.17 | change_pct=-18.41% | PNR rose -18.41% from its 94.17 days recent maximum price.
+2026-05-08T19:57:01 | PODD | Insulet Corporation | RISE | current_price=154.11 | reference_price=218.04 | change_pct=-29.32% | PODD rose -29.32% from its 218.04 days recent maximum price.
+2026-05-08T19:57:01 | POOL | Pool Corporation | RISE | current_price=187.84 | reference_price=249.04 | change_pct=-24.57% | POOL rose -24.57% from its 249.04 days recent maximum price.
+2026-05-08T19:57:01 | PPL | PPL Corporation | RISE | current_price=35.91 | reference_price=40.10 | change_pct=-10.46% | PPL rose -10.46% from its 40.10 days recent maximum price.
+2026-05-08T19:57:01 | PSA | Public Storage | DROP | current_price=311.18 | reference_price=263.98 | change_pct=17.88% | PSA dropped 17.88% from its 263.98 days recent minimum price.
+2026-05-08T19:57:01 | PSKY | Paramount Skydance Corporation | DROP | current_price=11.09 | reference_price=8.65 | change_pct=28.08% | PSKY dropped 28.08% from its 8.65 days recent minimum price.
+2026-05-08T19:57:01 | PSX | Phillips 66 | DROP | current_price=171.55 | reference_price=153.58 | change_pct=11.70% | PSX dropped 11.70% from its 153.58 days recent minimum price.
+2026-05-08T19:57:01 | PTC | PTC Inc. | DROP | current_price=146.68 | reference_price=130.94 | change_pct=12.02% | PTC dropped 12.02% from its 130.94 days recent minimum price.
+2026-05-08T19:57:01 | PWR | Quanta Services | DROP | current_price=745.05 | reference_price=522.03 | change_pct=42.72% | PWR dropped 42.72% from its 522.03 days recent minimum price.
+2026-05-08T19:57:01 | PYPL | PayPal | RISE | current_price=45.37 | reference_price=52.29 | change_pct=-13.23% | PYPL rose -13.23% from its 52.29 days recent maximum price.
+2026-05-08T19:57:01 | Q | Qnity Electronics | DROP | current_price=147.35 | reference_price=106.17 | change_pct=38.79% | Q dropped 38.79% from its 106.17 days recent minimum price.
+2026-05-08T19:57:01 | QCOM | Qualcomm | DROP | current_price=219.14 | reference_price=121.99 | change_pct=79.64% | QCOM dropped 79.64% from its 121.99 days recent minimum price.
+2026-05-08T19:57:01 | RF | Regions Financial Corporation | DROP | current_price=27.63 | reference_price=25.02 | change_pct=10.41% | RF dropped 10.41% from its 25.02 days recent minimum price.
+2026-05-08T19:57:01 | RJF | Raymond James Financial | DROP | current_price=154.33 | reference_price=138.82 | change_pct=11.17% | RJF dropped 11.17% from its 138.82 days recent minimum price.
+2026-05-08T19:57:01 | RL | Ralph Lauren Corporation | DROP | current_price=358.38 | reference_price=324.34 | change_pct=10.50% | RL dropped 10.50% from its 324.34 days recent minimum price.
+2026-05-08T19:57:01 | RMD | ResMed | RISE | current_price=206.67 | reference_price=234.90 | change_pct=-12.02% | RMD rose -12.02% from its 234.90 days recent maximum price.
+2026-05-08T19:57:01 | ROK | Rockwell Automation | DROP | current_price=453.87 | reference_price=347.53 | change_pct=30.60% | ROK dropped 30.60% from its 347.53 days recent minimum price.
+2026-05-08T19:57:01 | RSG | Republic Services | RISE | current_price=200.02 | reference_price=224.99 | change_pct=-11.10% | RSG rose -11.10% from its 224.99 days recent maximum price.
+2026-05-08T19:57:01 | RTX | RTX Corporation | RISE | current_price=176.09 | reference_price=205.36 | change_pct=-14.25% | RTX rose -14.25% from its 205.36 days recent maximum price.
+2026-05-08T19:57:01 | RVTY | Revvity | DROP | current_price=101.03 | reference_price=81.22 | change_pct=24.39% | RVTY dropped 24.39% from its 81.22 days recent minimum price.
+2026-05-08T19:57:01 | SATS | EchoStar | DROP | current_price=127.04 | reference_price=110.05 | change_pct=15.44% | SATS dropped 15.44% from its 110.05 days recent minimum price.
+2026-05-08T19:57:01 | SBAC | SBA Communications | DROP | current_price=218.17 | reference_price=165.01 | change_pct=32.22% | SBAC dropped 32.22% from its 165.01 days recent minimum price.
+2026-05-08T19:57:01 | SBUX | Starbucks | DROP | current_price=104.94 | reference_price=85.60 | change_pct=22.59% | SBUX dropped 22.59% from its 85.60 days recent minimum price.
+2026-05-08T19:57:01 | SCHW | Charles Schwab Corporation | RISE | current_price=88.62 | reference_price=100.76 | change_pct=-12.05% | SCHW rose -12.05% from its 100.76 days recent maximum price.
+2026-05-08T19:57:01 | SJM | J.M. Smucker Company (The) | DROP | current_price=99.22 | reference_price=88.25 | change_pct=12.43% | SJM dropped 12.43% from its 88.25 days recent minimum price.
+2026-05-08T19:57:01 | SMCI | Supermicro | DROP | current_price=35.37 | reference_price=20.71 | change_pct=70.79% | SMCI dropped 70.79% from its 20.71 days recent minimum price.
+2026-05-08T19:57:01 | SNDK | Sandisk | DROP | current_price=1562.34 | reference_price=558.58 | change_pct=179.70% | SNDK dropped 179.70% from its 558.58 days recent minimum price.
+2026-05-08T19:57:01 | SNPS | Synopsys | DROP | current_price=516.33 | reference_price=379.50 | change_pct=36.06% | SNPS dropped 36.06% from its 379.50 days recent minimum price.
+2026-05-08T19:57:01 | SOLV | Solventum | DROP | current_price=73.38 | reference_price=62.38 | change_pct=17.63% | SOLV dropped 17.63% from its 62.38 days recent minimum price.
+2026-05-08T19:57:01 | SPG | Simon Property Group | DROP | current_price=202.13 | reference_price=179.14 | change_pct=12.83% | SPG dropped 12.83% from its 179.14 days recent minimum price.
+2026-05-08T19:57:01 | STLD | Steel Dynamics | DROP | current_price=235.09 | reference_price=169.90 | change_pct=38.36% | STLD dropped 38.36% from its 169.90 days recent minimum price.
+2026-05-08T19:57:01 | STT | State Street Corporation | DROP | current_price=149.46 | reference_price=121.88 | change_pct=22.63% | STT dropped 22.63% from its 121.88 days recent minimum price.
+2026-05-08T19:57:01 | STX | Seagate Technology | DROP | current_price=782.55 | reference_price=351.42 | change_pct=122.69% | STX dropped 122.69% from its 351.42 days recent minimum price.
+2026-05-08T19:57:01 | STZ | Constellation Brands | RISE | current_price=148.21 | reference_price=168.60 | change_pct=-12.09% | STZ rose -12.09% from its 168.60 days recent maximum price.
+2026-05-08T19:57:01 | SW | Smurfit Westrock | DROP | current_price=41.56 | reference_price=36.69 | change_pct=13.29% | SW dropped 13.29% from its 36.69 days recent minimum price.
+2026-05-08T19:57:01 | SWK | Stanley Black & Decker | DROP | current_price=81.08 | reference_price=65.76 | change_pct=23.30% | SWK dropped 23.30% from its 65.76 days recent minimum price.
+2026-05-08T19:57:01 | SWKS | Skyworks Solutions | DROP | current_price=66.80 | reference_price=51.93 | change_pct=28.63% | SWKS dropped 28.63% from its 51.93 days recent minimum price.
+2026-05-08T19:57:01 | SYF | Synchrony Financial | DROP | current_price=73.15 | reference_price=64.95 | change_pct=12.63% | SYF dropped 12.63% from its 64.95 days recent minimum price.
+2026-05-08T19:57:01 | SYK | Stryker Corporation | RISE | current_price=285.47 | reference_price=352.80 | change_pct=-19.08% | SYK rose -19.08% from its 352.80 days recent maximum price.
+2026-05-08T19:57:01 | SYY | Sysco | RISE | current_price=72.43 | reference_price=82.72 | change_pct=-12.44% | SYY rose -12.44% from its 82.72 days recent maximum price.
+2026-05-08T19:57:01 | T | AT&T | RISE | current_price=25.16 | reference_price=29.36 | change_pct=-14.32% | T rose -14.32% from its 29.36 days recent maximum price.
+2026-05-08T19:57:01 | TECH | Bio-Techne | RISE | current_price=48.37 | reference_price=62.47 | change_pct=-22.57% | TECH rose -22.57% from its 62.47 days recent maximum price.
+2026-05-08T19:57:01 | TEL | TE Connectivity | RISE | current_price=206.22 | reference_price=252.56 | change_pct=-18.35% | TEL rose -18.35% from its 252.56 days recent maximum price.
+2026-05-08T19:57:01 | TER | Teradyne | DROP | current_price=359.77 | reference_price=273.07 | change_pct=31.75% | TER dropped 31.75% from its 273.07 days recent minimum price.
+2026-05-08T19:57:01 | TER | Teradyne | RISE | current_price=359.77 | reference_price=422.11 | change_pct=-14.77% | TER rose -14.77% from its 422.11 days recent maximum price.
+2026-05-08T19:57:01 | TFC | Truist Financial | DROP | current_price=49.11 | reference_price=44.13 | change_pct=11.28% | TFC dropped 11.28% from its 44.13 days recent minimum price.
+2026-05-08T19:57:01 | TKO | TKO Group Holdings | RISE | current_price=186.70 | reference_price=208.57 | change_pct=-10.49% | TKO rose -10.49% from its 208.57 days recent maximum price.
+2026-05-08T19:57:01 | TMO | Thermo Fisher Scientific | RISE | current_price=464.99 | reference_price=538.41 | change_pct=-13.64% | TMO rose -13.64% from its 538.41 days recent maximum price.
+2026-05-08T19:57:01 | TMUS | T-Mobile US | RISE | current_price=193.57 | reference_price=216.35 | change_pct=-10.53% | TMUS rose -10.53% from its 216.35 days recent maximum price.
+2026-05-08T19:57:01 | TPL | Texas Pacific Land Corporation | RISE | current_price=394.33 | reference_price=526.43 | change_pct=-25.09% | TPL rose -25.09% from its 526.43 days recent maximum price.
+2026-05-08T19:57:01 | TPR | Tapestry, Inc. | RISE | current_price=133.45 | reference_price=158.56 | change_pct=-15.84% | TPR rose -15.84% from its 158.56 days recent maximum price.
+2026-05-08T19:57:01 | TRMB | Trimble Inc. | RISE | current_price=60.78 | reference_price=70.77 | change_pct=-14.12% | TRMB rose -14.12% from its 70.77 days recent maximum price.
+2026-05-08T19:57:01 | TROW | T. Rowe Price | DROP | current_price=105.31 | reference_price=87.59 | change_pct=20.23% | TROW dropped 20.23% from its 87.59 days recent minimum price.
+2026-05-08T19:57:01 | TSCO | Tractor Supply | RISE | current_price=30.65 | reference_price=46.40 | change_pct=-33.95% | TSCO rose -33.95% from its 46.40 days recent maximum price.
+2026-05-08T19:57:01 | TSLA | Tesla, Inc. | DROP | current_price=428.32 | reference_price=337.24 | change_pct=27.01% | TSLA dropped 27.01% from its 337.24 days recent minimum price.
+2026-05-08T19:57:01 | TSN | Tyson Foods | DROP | current_price=68.38 | reference_price=62.05 | change_pct=10.20% | TSN dropped 10.20% from its 62.05 days recent minimum price.
+2026-05-08T19:57:01 | TT | Trane Technologies | DROP | current_price=466.08 | reference_price=403.14 | change_pct=15.61% | TT dropped 15.61% from its 403.14 days recent minimum price.
+2026-05-08T19:57:01 | TTD | Trade Desk (The) | DROP | current_price=23.07 | reference_price=19.74 | change_pct=16.87% | TTD dropped 16.87% from its 19.74 days recent minimum price.
+2026-05-08T19:57:01 | TTWO | Take-Two Interactive | DROP | current_price=220.45 | reference_price=187.63 | change_pct=17.49% | TTWO dropped 17.49% from its 187.63 days recent minimum price.
+2026-05-08T19:57:01 | TXN | Texas Instruments | DROP | current_price=287.89 | reference_price=184.95 | change_pct=55.66% | TXN dropped 55.66% from its 184.95 days recent minimum price.
+2026-05-08T19:57:01 | TYL | Tyler Technologies | RISE | current_price=324.37 | reference_price=366.63 | change_pct=-11.53% | TYL rose -11.53% from its 366.63 days recent maximum price.
+2026-05-08T19:57:01 | UAL | United Airlines Holdings | DROP | current_price=99.57 | reference_price=84.64 | change_pct=17.64% | UAL dropped 17.64% from its 84.64 days recent minimum price.
+2026-05-08T19:57:01 | UBER | Uber | DROP | current_price=75.46 | reference_price=68.46 | change_pct=10.22% | UBER dropped 10.22% from its 68.46 days recent minimum price.
+2026-05-08T19:57:01 | UDR | UDR, Inc. | DROP | current_price=36.91 | reference_price=33.47 | change_pct=10.26% | UDR dropped 10.26% from its 33.47 days recent minimum price.
+2026-05-08T19:57:01 | UHS | Universal Health Services | RISE | current_price=169.93 | reference_price=189.45 | change_pct=-10.30% | UHS rose -10.30% from its 189.45 days recent maximum price.
+2026-05-08T19:57:01 | UNH | UnitedHealth Group | DROP | current_price=379.82 | reference_price=255.96 | change_pct=48.39% | UNH dropped 48.39% from its 255.96 days recent minimum price.
+2026-05-08T19:57:01 | UNP | Union Pacific Corporation | DROP | current_price=264.61 | reference_price=238.13 | change_pct=11.12% | UNP dropped 11.12% from its 238.13 days recent minimum price.
+2026-05-08T19:57:01 | URI | United Rentals | DROP | current_price=936.95 | reference_price=709.45 | change_pct=32.07% | URI dropped 32.07% from its 709.45 days recent minimum price.
+2026-05-08T19:57:01 | VEEV | Veeva Systems | DROP | current_price=166.33 | reference_price=148.05 | change_pct=12.35% | VEEV dropped 12.35% from its 148.05 days recent minimum price.
+2026-05-08T19:57:01 | VLO | Valero Energy | DROP | current_price=241.05 | reference_price=214.71 | change_pct=12.27% | VLO dropped 12.27% from its 214.71 days recent minimum price.
+2026-05-08T19:57:01 | VRSK | Verisk Analytics | RISE | current_price=171.88 | reference_price=192.43 | change_pct=-10.68% | VRSK rose -10.68% from its 192.43 days recent maximum price.
+2026-05-08T19:57:01 | VRSN | Verisign | DROP | current_price=288.22 | reference_price=245.48 | change_pct=17.41% | VRSN dropped 17.41% from its 245.48 days recent minimum price.
+2026-05-08T19:57:01 | VRT | Vertiv | DROP | current_price=339.92 | reference_price=231.70 | change_pct=46.71% | VRT dropped 46.71% from its 231.70 days recent minimum price.
+2026-05-08T19:57:01 | VST | Vistra Corp. | RISE | current_price=147.73 | reference_price=168.49 | change_pct=-12.32% | VST rose -12.32% from its 168.49 days recent maximum price.
+2026-05-08T19:57:01 | VTRS | Viatris | DROP | current_price=17.19 | reference_price=12.87 | change_pct=33.57% | VTRS dropped 33.57% from its 12.87 days recent minimum price.
+2026-05-08T19:57:01 | WAB | Wabtec | DROP | current_price=265.84 | reference_price=236.51 | change_pct=12.40% | WAB dropped 12.40% from its 236.51 days recent minimum price.
+2026-05-08T19:57:01 | WAT | Waters Corporation | DROP | current_price=355.15 | reference_price=287.19 | change_pct=23.66% | WAT dropped 23.66% from its 287.19 days recent minimum price.
+2026-05-08T19:57:01 | WDAY | Workday, Inc. | DROP | current_price=127.85 | reference_price=110.36 | change_pct=15.85% | WDAY dropped 15.85% from its 110.36 days recent minimum price.
+2026-05-08T19:57:01 | WDC | Western Digital | DROP | current_price=480.00 | reference_price=249.06 | change_pct=92.72% | WDC dropped 92.72% from its 249.06 days recent minimum price.
+2026-05-08T19:57:01 | WELL | Welltower | DROP | current_price=214.63 | reference_price=194.27 | change_pct=10.48% | WELL dropped 10.48% from its 194.27 days recent minimum price.
+2026-05-08T19:57:01 | WFC | Wells Fargo | RISE | current_price=75.64 | reference_price=86.70 | change_pct=-12.76% | WFC rose -12.76% from its 86.70 days recent maximum price.
+2026-05-08T19:57:01 | WSM | Williams-Sonoma, Inc. | RISE | current_price=182.11 | reference_price=208.74 | change_pct=-12.76% | WSM rose -12.76% from its 208.74 days recent maximum price.
+2026-05-08T19:57:01 | WST | West Pharmaceutical Services | DROP | current_price=325.92 | reference_price=240.16 | change_pct=35.71% | WST dropped 35.71% from its 240.16 days recent minimum price.
+2026-05-08T19:57:01 | WTW | Willis Towers Watson | RISE | current_price=256.33 | reference_price=300.98 | change_pct=-14.83% | WTW rose -14.83% from its 300.98 days recent maximum price.
+2026-05-08T19:57:01 | XOM | ExxonMobil | RISE | current_price=144.40 | reference_price=176.41 | change_pct=-18.15% | XOM rose -18.15% from its 176.41 days recent maximum price.
+2026-05-08T19:57:01 | XYL | Xylem Inc. | RISE | current_price=113.74 | reference_price=130.18 | change_pct=-12.63% | XYL rose -12.63% from its 130.18 days recent maximum price.
+2026-05-08T19:57:01 | XYZ | Block, Inc. | DROP | current_price=74.86 | reference_price=55.86 | change_pct=34.01% | XYZ dropped 34.01% from its 55.86 days recent minimum price.
+2026-05-08T19:57:01 | ZBH | Zimmer Biomet | RISE | current_price=82.33 | reference_price=97.81 | change_pct=-15.82% | ZBH rose -15.82% from its 97.81 days recent maximum price.
+2026-05-08T19:57:01 | ZBRA | Zebra Technologies | DROP | current_price=226.03 | reference_price=199.05 | change_pct=13.55% | ZBRA dropped 13.55% from its 199.05 days recent minimum price.
+2026-05-08T19:57:01 | ZTS | Zoetis | RISE | current_price=82.82 | reference_price=123.32 | change_pct=-32.84% | ZTS rose -32.84% from its 123.32 days recent maximum price.
