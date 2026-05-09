@@ -79,6 +79,18 @@ def is_market_open_now():
 
     return market_open <= now_utc <= market_close
 
+def split_into_batches(items: list[str], batch_size: int):
+    '''
+    Split a list of items into batches of a specified size.
+    For APIs that have limits on the number of items per request 
+    (eg. yfinance cannot handle too many symbols at a time).
+    @ params[in]:
+        items: A list of symbols to be split into batches.
+        batch_size: The maximum number of items in each batch.
+    @ return: A generator that yields batches of items.
+    '''
+    for i in range(0, len(items), batch_size):
+        yield items[i:i + batch_size]
 
 def poll_prices(symbols: list[str], days: int):
 
@@ -96,55 +108,64 @@ def poll_prices(symbols: list[str], days: int):
     # Since yahoo Finance symbol is different from Wikipedia for some stocks (eg: BRK.B in Wikipedia is BRK-B in Yahoo Finance)
     # we need to adjust the symbols, and adjust them back after polling prices
     symbol_map = {symbol: symbol.replace(".", "-") for symbol in symbols}
+    yahoo_to_original = {yahoo: original for original, yahoo in symbol_map.items()}
     yahoo_symbols = list(symbol_map.values())
 
     # Get historical intraday price data
     period = f"{days}d"
-    try:
-        data = yf.download(tickers = yahoo_symbols,
-                           period = period, # number of recent calendar days used to calculate max and min prices
-                           interval = "5m", # the interval of the data, we can get 5-minute price data
-                           group_by = "ticker", # group the data by ticker, so that we can easily get the price data for each stock
-                           auto_adjust = False, # only get the raw price data without any adjustment
-                           prepost = False, # only get the regular trading hours data, no pre-market or after-hours data
-                           progress = True, # progress bar when downloading data
-                           threads = True, # use multi-threading to speed up the downloading
-                           )
-    except Exception as e:
-        print(f"Error downloading data from Yahoo Finance: {e}")
-        raise RuntimeError("Failed to download price data from Yahoo Finance.")
+    batch_size = 50
+    # data = []
+    for batch in split_into_batches(yahoo_symbols, batch_size): # yfinance can only handle up to 100 symbols at a time, so we split the symbols into batches of 50 to be safe
+        try:
+            data = yf.download(tickers = batch,
+                               period = period, # number of recent calendar days used to calculate max and min prices
+                               interval = "5m", # the interval of the data, we can get 5-minute price data
+                               group_by = "ticker", # group the data by ticker, so that we can easily get the price data for each stock
+                               auto_adjust = False, # only get the raw price data without any adjustment
+                               prepost = False, # only get the regular trading hours data, no pre-market or after-hours data
+                               progress = False, # no progress bar when downloading data
+                               threads = True, # use multi-threading to speed up the downloading
+                               )
+            if data.empty or len(data.index) == 0:
+                print(f"Warning: Empty data returned for batch: {batch[:5]} ...")
+                continue
+            # data.append(batch_data)
+        except Exception as e:
+            print(f"Warning: Failed to download batch starting with {batch[:3]}: {e}")
+            continue
 
     # debug test
-    pd.DataFrame(data).to_csv("price_data_for_debugging" + "_" + datetime.now().strftime("%Y%m%d_%H%M%S") + ".csv", index=True)
+    # pd.DataFrame(data).to_csv("price_data_for_debugging" + "_" + datetime.now().strftime("%Y%m%d_%H%M%S") + ".csv", index=True)
 
-    for original_symbol, yahoo_symbol in symbol_map.items():
-        try:
-            if isinstance(data.columns, pd.MultiIndex):
-                # if multiple columns, and we group by ticker, columns would be a MultiIndex with levels: [symbol, price attribute]
-                if yahoo_symbol not in data.columns.get_level_values(0):
-                    print(f"Warning: No price data found for {original_symbol}. Skip.")
+        for yahoo_symbol in batch:
+            original_symbol = yahoo_to_original[yahoo_symbol]
+            try:
+                if isinstance(data.columns, pd.MultiIndex):
+                    # if multiple columns, and we group by ticker, columns would be a MultiIndex with levels: [symbol, price attribute]
+                    if yahoo_symbol not in data.columns.get_level_values(0):
+                        print(f"Warning: No price data found for {original_symbol}. Skip.")
+                        continue
+                    # get the price data for this symbol
+                    symbol_data = data.xs(yahoo_symbol, level=0, axis=1)
+                else:
+                    symbol_data = data.copy()
+                symbol_data = symbol_data.dropna(subset=["Close", "High", "Low"])
+
+                # If there is no price data for this symbol, skip it
+                if len(symbol_data) < 2:
+                    print(f"Price data for {original_symbol} is empty. Skip.")
                     continue
-                # get the price data for this symbol
-                symbol_data = data.xs(yahoo_symbol, level=0, axis=1)
-            else:
-                symbol_data = data.copy()
-            symbol_data = symbol_data.dropna(subset=["Close", "High", "Low"])
 
-            # If there is no price data for this symbol, skip it
-            if len(symbol_data) < 2:
-                print(f"Price data for {original_symbol} is empty. Skip.")
-                continue
-
-            current_price = float(symbol_data["Close"].iloc[-1])
-            history_data = symbol_data.iloc[:-1]
-            window_max = float(history_data["High"].max())
-            window_min = float(history_data["Low"].min())
-            rows.append({"symbol": original_symbol,
-                         "current_price": current_price,
-                         "window_max": window_max,
-                         "window_min": window_min})
-        except Exception as e:
-            print(f"Warning: Failed to process {original_symbol}: {e}")
+                current_price = float(symbol_data["Close"].iloc[-1])
+                history_data = symbol_data.iloc[:-1]
+                window_max = float(history_data["High"].max())
+                window_min = float(history_data["Low"].min())
+                rows.append({"symbol": original_symbol,
+                            "current_price": current_price,
+                            "window_max": window_max,
+                            "window_min": window_min})
+            except Exception as e:
+                print(f"Warning: Failed to process {original_symbol}: {e}")
     
     output_table = pd.DataFrame(rows)
 

@@ -20,6 +20,14 @@ Assumptions:
 5. Trading time is defined as the NYSE regular trading session, 9:30 AM to 
    4:00 PM Eastern Time, excluding non-trading days and market holidays. Use 
    pandas_market_calendars to check whether the market is open.
+6. The current implementation uses yfinance to fetch intraday stock price 
+   data. During testing, fetching all S&P 500 tickers in one request sometimes 
+   returned incomplete or inconsistent data for some symbols. To reduce this 
+   issue, the program fetches prices in smaller batches, with 50 tickers per 
+   batch, and then concatenates the results. Based on short-term testing, 
+   this batching approach produced more consistent results, so the implementation 
+   assumes that batched requests significantly reduce the chance of missing price 
+   data.
 
 
 Notification API Description:

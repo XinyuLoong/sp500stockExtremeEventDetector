@@ -1,0 +1,8 @@
+# The cron job runs once every hour, every day.
+# Path template for running in other env: 
+# 0 * * * * cd /ABSOLUTE/PATH/TO/STOCK_MONITOR_PROJECT && /ABSOLUTE/PATH/TO/PYTHON main.py --days 10 --threshold 0.10 --stock-file stocklist.csv --state-file stock_extremes.csv >> cron_run.log 2>&1
+
+SHELL=/bin/bash
+PATH=/usr/local/bin:/usr/bin:/bin
+
+0 * * * * cd /Users/longxinyu/sp500stockExtremeEventDetector && /Users/longxinyu/miniconda3/envs/iai/bin/python main.py --days 10 --threshold 0.10 --stock-file stocklist.csv --state-file stock_extremes.csv >> cron_run.log 2>&1
