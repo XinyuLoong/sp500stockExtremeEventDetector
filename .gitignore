@@ -1,0 +1,6 @@
+price_data_for_debugging.csv
+stock_extremes.csv
+cron_run.log
+notifications_*.log
+__pycache__/
+.DS_Store
