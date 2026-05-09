@@ -27,7 +27,7 @@ def parse_args():
     parser.add_argument("--days", type = int, default = 10, help = "Number of recent calendar days used to calculate high and low prices.")
     parser.add_argument("--threshold", type = float, default=0.10, help = "Price movement threshold. Eg: 0.10 means 10%.")
     parser.add_argument("--stock-file", default = "stocklist.csv", help = "Input .csv file containing the stock list.")
-    parser.add_argument("--state-file", default = "stock_extremes.csv", help = "Output .csv file storing current stock extremes.")
+    parser.add_argument("--state-file", default = "stock_state.csv", help = "Output .csv file storing current stock extremes.")
     # Add this option for testing (When we want to test the program outside trading hours)
     parser.add_argument("--force-run", action = "store_true", help = "Force the program to run even outside trading hours. Useful for testing.")
     return parser.parse_args()
