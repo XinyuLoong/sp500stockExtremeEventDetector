@@ -8,7 +8,7 @@ import yfinance as yf
 from notifier import send_notifications # Sending nitification API
 
 #-----------------------------------------------------------------------------
-#            Hepers functions for main.py
+#            Helpers functions for main.py
 #-----------------------------------------------------------------------------
 def parse_args():
 
@@ -19,7 +19,7 @@ def parse_args():
     --days: number of recent calendar days used to calculate high and low prices. Default: 10
     --threshold: price movement threshold. Eg: 0.10 means 10%. Default
     --stock-file: input .csv file containing the stock list. Default: stocklist.csv
-    --event-file: output .csv file storing current stock extremes. Default: stock_extremes.csv
+    --state-file: output .csv file storing current stock extremes. Default: stock_extremes.csv
     @ return: parsed arguments
     '''
 
@@ -115,7 +115,7 @@ def poll_prices(symbols: list[str], days: int):
         raise RuntimeError("Failed to download price data from Yahoo Finance.")
 
     # debug test
-    pd.DataFrame(data).to_csv("price_data_for_debugging.csv", index=True)
+    # pd.DataFrame(data).to_csv("price_data_for_debugging.csv", index=True)
 
     for original_symbol, yahoo_symbol in symbol_map.items():
         try:
@@ -181,13 +181,13 @@ def detect_events(price_df: pd.DataFrame, threshold: float, symbol_to_name: dict
         window_max = row["window_max"]
         window_min = row["window_min"]
 
-        drop_pct = (current_price - window_min) / window_min
-        rise_pct = (current_price - window_max) / window_max
+        drop_pct = (current_price - window_min) / window_min # negative value if dropped
+        rise_pct = (current_price - window_max) / window_max # positive value if rose
 
         # Only consider it an event if the price movement exceeds the threshold
         # 1. DROP event: current price dropped more than threshold from recent max
         # 2. RISE event: current price rose more than threshold from recent min
-        if abs(drop_pct) > threshold:
+        if drop_pct < -threshold:
             events.append({
                 "symbol": symbol,
                 "company_name": symbol_to_name.get(symbol, ""),
@@ -198,7 +198,7 @@ def detect_events(price_df: pd.DataFrame, threshold: float, symbol_to_name: dict
                 "message": (f"{symbol} dropped {drop_pct:.2%} from its {window_min:.2f} days recent minimum price.")
             })
 
-        if abs(rise_pct) > threshold:
+        if rise_pct > threshold:
             events.append({
                 "symbol": symbol,
                 "company_name": symbol_to_name.get(symbol, ""),
@@ -264,8 +264,8 @@ def build_state_table(price_df: pd.DataFrame, events: list[dict], symbol_to_name
             "current_price": current_price,
             "window_max": window_max,
             "window_min": window_min,
-            "drop_pct": drop_pct,
-            "rise_pct": rise_pct,
+            "drop_pct": drop_pct if drop_pct < 0 else "-", # only show drop_pct if it's a drop
+            "rise_pct": rise_pct if rise_pct > 0 else "-", # only show rise_pct if it's a rise
             "latest_event": latest_event,
             "check_time": datetime.now().isoformat(timespec="seconds"),
         })
@@ -298,13 +298,13 @@ def main():
 
     # Send notifications for detected events
     if events:
-        send_notifications(events)
+        send_notifications(events, args.days, args.threshold)
         print(f"Generated {len(events)} notification(s).")
     else:
         print("No events detected.")
 
     # Build the state table and save to .csv
-    state_df = build_state_table(price_df, events, stock_df)
+    state_df = build_state_table(price_df, events, symbol_to_name)
     state_df.to_csv(args.state_file, index=False)
     print(f"Saved current state to {args.state_file}")
 

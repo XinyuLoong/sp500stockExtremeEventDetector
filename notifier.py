@@ -1,9 +1,9 @@
 from datetime import datetime
 
-def send_a_notification(event: dict, output_file: str = "notifications.log"):
-    
+def format_notification_line(event: dict):
+   
     """
-    Write one stock price alert event to a local notification log file.
+    Write one line for a stock price alert event to a sentence.
     @ Params[in]:
         event: A dictionary that contains alert details.
                 Expected keys:
@@ -14,31 +14,46 @@ def send_a_notification(event: dict, output_file: str = "notifications.log"):
                 - event_type
                 - change_pct
                 - message
-        output_file: The log file used to store notifications.
-    @ return: void
+    @ return: string line for one event, e.g. "Apple Inc. (AAPL)'s price rose by 15.00% compared to the recent maximum price."
     """
 
-    timestamp = datetime.now().isoformat(timespec="seconds")
-    line = (
-        f"{timestamp} | "
-        f"{event['symbol']} | "
-        f"{event['company_name']} | "
-        f"{event['event_type']} | "
-        f"current_price={event['current_price']:.2f} | "
-        f"reference_price={event['reference_price']:.2f} | "
-        f"change_pct={event['change_pct']:.2%} | "
-        f"{event['message']}\n"
-    )
-    with open(output_file, "a", encoding="utf-8") as file:
-        file.write(line)
+    symbol = event["symbol"]
+    company_name = event.get("company_name", "")
+
+    if not company_name:
+        company_name = symbol
+
+    event_type = event["event_type"]
+    change_pct = event["change_pct"]
+
+    if event_type == "DROP":
+        action_word = "dropped"
+        reference_word = "minimum"
+        display_pct = abs(change_pct)
+    elif event_type == "RISE":
+        action_word = "rose"
+        reference_word = "maximum"
+        display_pct = change_pct
+
+    line = (f"{company_name} ({symbol})'s price {action_word} by {display_pct:.2%} compared to the recent {reference_word} price.")
+
+    return line
 
 
-def send_notifications(events: list[dict], output_file: str = "notifications.log"):
+def send_notifications(events: list[dict], window_days: int, threshold: float, output_file: str = "notifications",):
     """
-    Write multiple stock price alert events to a local notification log file.
+    Write stock price alert events to a local notification log file.
+    The notification format is:
+    Timestamp: [timestamp]
+    Check Window: [window_days] day(s)
+    Threshold: [threshold]%
+    [space line]
+    [space line]
+    [company name] ([symbol])'s price [rose/dropped] by [pct]% compared to the recent [maximum/minimum] price.
+
     @ Params[in]:
-        events: A list of dictionaries, each containing alert details.
-                Expected keys in each dictionary:
+        events: A list of dictionaries, each containing alert details for one stock. Expected keys in
+                each dictionary:
                 - symbol
                 - company_name
                 - current_price
@@ -46,8 +61,37 @@ def send_notifications(events: list[dict], output_file: str = "notifications.log
                 - event_type
                 - change_pct
                 - message
-        output_file: The log file used to store notifications.
-    @ return: void
+        window_days: The number of recent calendar days used to calculate high and low prices. This is included in the notification for context.
+        threshold: The price movement threshold used to trigger the alert. This is included in the notification for context.
+        output_file: The base name of the output file where notifications will be saved. The actual file name will have a timestamp appended to it. Default is "notifications".
+     @ return: void. The function writes the notifications to a local file.
+    
     """
+
+    timestamp = datetime.now().isoformat(timespec="seconds")
+
+    lines = []
+    lines.append(f"Timestamp: {timestamp}")
+    lines.append(f"Check Window: {window_days} day(s)")
+    lines.append(f"Threshold: {threshold:.2%}")
+    lines.append("")
+    lines.append("")
+
     for event in events:
-        send_a_notification(event, output_file)
+        lines.append(format_notification_line(event))
+
+    lines.append("")
+
+    output_file_timestamp = output_file + "_" + datetime.now().strftime("%Y%m%d_%H%M") + ".log"
+    with open(output_file_timestamp, "a", encoding="utf-8") as file:
+        file.write("\n".join(lines))
+        file.write("\n")
+
+
+
+
+
+
+
+
+
