@@ -79,7 +79,7 @@ It also needs the inputs like:
     -threshold: the arg we passed from in the command line, it decides when we will see a rise/drop as extreme event
     -output_file: a base string to name the output notification log fiile. It's default value is "notifications"
     Based on the output_file, we create the real file name, formatted as:
-    [output_file]_YYYYMMDD_HHMM.log
+    [output_file]_YYYYMMDD_HHMMSS.log
 
 
 
