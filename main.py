@@ -5,7 +5,7 @@ from datetime import datetime, time, timezone
 import pandas_market_calendars as mcal
 import yfinance as yf
 
-from notifier import send_notifications # Sending nitification API
+from notification import send_notifications # Sending nitification API
 
 #-----------------------------------------------------------------------------
 #            Helpers functions for main.py
@@ -115,7 +115,7 @@ def poll_prices(symbols: list[str], days: int):
         raise RuntimeError("Failed to download price data from Yahoo Finance.")
 
     # debug test
-    # pd.DataFrame(data).to_csv("price_data_for_debugging.csv", index=True)
+    pd.DataFrame(data).to_csv("price_data_for_debugging" + "_" + datetime.now().strftime("%Y%m%d_%H%M%S") + ".csv", index=True)
 
     for original_symbol, yahoo_symbol in symbol_map.items():
         try:
